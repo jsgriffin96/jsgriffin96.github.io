@@ -48,6 +48,10 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+/* No scroll bar iframe */
+    iframe{
+        overflow:hidden;
+    }
 
 /* Box Model */
 

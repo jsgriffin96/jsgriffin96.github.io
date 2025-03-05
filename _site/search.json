@@ -1,0 +1,184 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "I’m an analyst specializing in digital marketing and data analytics. I transform raw data into actionable insights, blending technical expertise with creative strategy to drive impactful solutions.\n\n\nI hold a Master of Science in Digital Marketing from Cal Poly Pomona, and I bring a unique blend of skills in R programming, Python, and web analytics to every project. Whether it’s through building interactive dashboards, delivering hands-on workshops, or publishing reproducible research, I thrive on turning complex data into clear, compelling narratives.\n\n\n\nI am a strong advocate for reproducible research, and I harness modern tools like Quarto to create dynamic, transparent documents and websites. By integrating code, narrative, and visualizations, Quarto empowers me to develop work that is easily updated, shared, and verified. This approach not only enhances the integrity of my research but also makes it accessible to collaborators and the broader community.\n\n\n\n\nData Analysis & Visualization: Creating interactive and informative visualizations using R and Python.\nDigital Marketing Strategies: Leveraging web analytics, SEO, and targeted campaigns to boost online presence.\nWorkshops & Training: Delivering engaging, hands-on workshops that empower professionals to harness the power of data.\nReproducible Reporting: Building seamlessly integrated documents and reports using Quarto.\n\n\n\n\n\n\nA digital hub for preserving and sharing cherished family memories, The Chubb Archive curates old physical films that have been digitized and hosted on YouTube. I built thechubbarchive.com as an organized gateway to these films, integrating Google Analytics to track and confirm engagement from family members across various states.\n\n\n\nIn my role as an Analyst, I revolutionized the process of defining military installation market areas. Previously, data was manually recorded—a time-consuming and hazardous method. I developed a Shiny R app that integrates with Strava to automatically capture GPS data during field drives. By leveraging the sf and leaflet packages along with the HERE API, the app produces an interactive map that improves both the accuracy and safety of data collection.\n\n\n\nTasked with organizing and categorizing flagged data from a large, complex database, I noticed that team morale was suffering due to the overwhelming volume of work. To address this, I created a straightforward yet effective dashboard that displays key metrics and a visual history of the team’s progress. This tool not only streamlined data processing but also boosted team motivation by clearly showcasing achievements over time.\nExplore Projects\n\n\n\n\nI’m always looking to collaborate and share ideas. Feel free to contact me or connect on LinkedIn.\n\nWelcome to my portfolio—where data meets creativity and reproducibility drives innovation."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Featured Projects",
+    "section": "",
+    "text": "Below are some key projects from my portfolio that highlight my work in digital innovation, data analytics, and interactive application development."
+  },
+  {
+    "objectID": "projects.html#data-visualization-dashboard",
+    "href": "projects.html#data-visualization-dashboard",
+    "title": "Projects",
+    "section": "",
+    "text": "Developed an interactive R Shiny dashboard to visualize key metrics from military housing data, enhancing decision-making efficiency.\nView on GitHub"
+  },
+  {
+    "objectID": "projects.html#digital-marketing-campaign-analysis",
+    "href": "projects.html#digital-marketing-campaign-analysis",
+    "title": "Projects",
+    "section": "Digital Marketing Campaign Analysis",
+    "text": "Digital Marketing Campaign Analysis\nAnalyzed campaign performance using regression and mediation analysis to provide strategic insights that improved digital outreach."
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Résumé",
+    "section": "",
+    "text": "You can view my a pdf version of my résumé here.\n\nProfessional Summary\nAnalytical and results-driven professional with expertise in digital marketing, data analysis, and research. Proficient in R, Python, SPSS, and web analytics. Adept at transforming raw data into actionable insights, streamlining processes, and communicating findings to diverse stakeholders.\n\n\nTechnical Skills\n\nProgramming Languages: R, Python, SQL\n\nWeb Technologies: HTML, SCSS, Quarto, Hubspot, Google Analytics, CMS Platforms\n\n\n\nEducation\n\n\n\n\n\n\n\n\n\nDegree\nYear\nCollege\nInstitution\n\n\n\n\nMaster of Science, Digital Marketing\n2024 - Expected Graduation May 2026\nSingelyn Graduate School of Business\nCal Poly Pomona\n\n\nBachelor of Science, Computer Information Systems\n2018 - 2020\nCollege of Business Administration\nCal Poly Pomona\n\n\n\n\n\nWork Experience\n\nAssociate Analyst, Robert D. Niehaus, Inc. \nMar. 2021 – Sept. 2024\n\nCollected and analyzed data for military installations across the U.S. as part of the Housing Market Analysis (HMA) team.\nCompiled and analyzed rental and utility data for 300 military housing areas for the Basic Allowance for Housing (BAH) program.\nSupported Tenant Satisfaction Surveys and Military Personnel Housing Surveys to assess housing quality and satisfaction.\nDeveloped and maintained R scripts to improve the efficiency and safety of data collection and analysis processes.\nRefactored Python scripts into R, ensuring seamless integration with existing R-based analytics workflows.\nInteracted with clients to ensure data and analysis met their specific needs and expectations.\n\n\n\nWeb Design and Media Analytics Team Lead, Center for Customer Insights and Digital Marketing\nAug. 2020 – Jan. 2021\n\nLed a website navigation redesign effort.\nTrained and mentored team members on web design, HTML/CSS, and the university’s CMS.\nIntroduced individual webpage and overall website tracking on the organization’s website using Hubspot.\nCreated and led a six-part workshop series demonstrating R programming, data wrangling, and data visualization to over 100 professionals, professors, and students.\nRecorded virtual R tutorials for use in graduate-level coursework.\nProposed and implemented new additions and revisions for the organization’s website.\nDetermined KPIs and assessed goal achievement."
+  },
+  {
+    "objectID": "workshops.html",
+    "href": "workshops.html",
+    "title": "Workshops",
+    "section": "",
+    "text": "Below are the workshops I have delivered, along with an overview of the topics covered, the learning outcomes, and the key skills I gained from each session. The R Workshop Series was expanded upon and used as a prerequisite for a Masters program."
+  },
+  {
+    "objectID": "workshops.html#introduction-to-r-programming",
+    "href": "workshops.html#introduction-to-r-programming",
+    "title": "Workshops",
+    "section": "",
+    "text": "Delivered a hands-on workshop covering data wrangling, visualization, and statistical analysis in R."
+  },
+  {
+    "objectID": "workshops.html#advanced-digital-marketing-strategies",
+    "href": "workshops.html#advanced-digital-marketing-strategies",
+    "title": "Workshops",
+    "section": "Advanced Digital Marketing Strategies",
+    "text": "Advanced Digital Marketing Strategies\nLed a session on leveraging data insights for optimizing digital marketing campaigns and improving ROI."
+  },
+  {
+    "objectID": "workshops.html#data-visualization-with-r-shiny",
+    "href": "workshops.html#data-visualization-with-r-shiny",
+    "title": "Workshops",
+    "section": "Data Visualization with R Shiny",
+    "text": "Data Visualization with R Shiny\nConducted a workshop on building interactive dashboards with R Shiny to help participants visualize complex datasets."
+  },
+  {
+    "objectID": "workshops.html#create-interactive-apps-with-shiny-in-r",
+    "href": "workshops.html#create-interactive-apps-with-shiny-in-r",
+    "title": "Workshops",
+    "section": "Create Interactive Apps with Shiny in R",
+    "text": "Create Interactive Apps with Shiny in R\n\nOverview\nTransform your data into engaging, interactive web applications using Shiny—a powerful R package for dynamic user interfaces. In this hands-on workshop, I guided participants through building and customizing Shiny apps, creating reactive visualizations with ggplot2 and plotly, and deploying the applications online. This session was designed for both beginners and R users looking to expand their technical skills.\n\n\n\n\nLearning Outcomes\n\nUnderstand the fundamental architecture of Shiny apps (using ui.R/server.R or app.R structures).\n\nImplement reactive programming to build dynamic, responsive applications.\n\nCreate and customize interactive data visualizations with ggplot2 and plotly.\n\nDeploy Shiny apps on platforms such as shinyapps.io and shinylive.\n\nLearn best practices for securing Shiny applications, including authentication.\n\n\n\n\nKey Skills Gained\n\nShiny app development\n\nReactive programming in R\n\nInteractive data visualization\n\nWeb application deployment\n\nApplication security practices"
+  },
+  {
+    "objectID": "workshops.html#text-mining-in-r",
+    "href": "workshops.html#text-mining-in-r",
+    "title": "Workshops",
+    "section": "Text Mining in R",
+    "text": "Text Mining in R\n\nOverview\nThis workshop offered a practical demonstration of text mining using real-world Twitter data. Participants learned to access the Twitter API, clean and tokenize text, analyze sentiment, and mine topics from tweets. The session emphasized transforming unstructured text into meaningful insights.\n\n\n\n\nLearning Outcomes\n\nClean, tidy, and tokenize textual data for analysis.\n\nApply TF-IDF to assess word importance.\n\nConduct sentiment analysis to interpret social media data.\n\nUse topic modeling techniques to identify themes within text.\n\n\n\n\nKey Skills Gained\n\nText data preprocessing\n\nSentiment analysis\n\nTF-IDF analysis\n\nTopic modeling techniques"
+  },
+  {
+    "objectID": "workshops.html#r-workshop-series-6-data-visualization-with-r",
+    "href": "workshops.html#r-workshop-series-6-data-visualization-with-r",
+    "title": "Workshops",
+    "section": "R Workshop Series #6: Data Visualization with R",
+    "text": "R Workshop Series #6: Data Visualization with R\n\nOverview\nThis advanced workshop focused on creating publication-quality data visualizations using R. We explored various chart types—from simple graphs to sophisticated layered visuals—leveraging R’s built-in functions along with packages like ggplot2 and lattice. The session helped participants select the best visualization techniques for different data scenarios.\n\n\n\n\nLearning Outcomes\n\nIdentify and compare popular R visualization packages.\n\nUnderstand the grammar of graphics using ggplot2.\n\nCreate charts for univariate and bivariate data.\n\nLayer and customize visualizations to convey data insights effectively.\n\nFilter and manipulate data with tidyverse functions.\n\n\n\n\nKey Skills Gained\n\nAdvanced data visualization techniques\n\nMastery of ggplot2 and lattice\n\nLayered chart creation\n\nData manipulation with tidyverse\n\nVisual storytelling"
+  },
+  {
+    "objectID": "workshops.html#r-workshop-series-5-r-programming",
+    "href": "workshops.html#r-workshop-series-5-r-programming",
+    "title": "Workshops",
+    "section": "R Workshop Series #5: R Programming",
+    "text": "R Workshop Series #5: R Programming\n\nOverview\nIn this session, I introduced the principles of good coding practice in R. Participants learned about logical operators, control structures (if-statements and loops), custom function creation, and the efficient use of apply family functions. This workshop laid a solid foundation for writing clean, efficient R code.\n\n\n\n\nLearning Outcomes\n\nPractice good coding standards and techniques.\n\nUse logical operators and control structures effectively.\n\nCreate custom R functions.\n\nSimplify repetitive tasks using apply functions.\n\nFamiliarize with essential built-in R functions.\n\n\n\n\nKey Skills Gained\n\nFundamental R programming\n\nLogical and control structures\n\nCustom function development\n\nCode optimization\n\nEfficient use of apply functions"
+  },
+  {
+    "objectID": "workshops.html#r-workshop-series-4-data-manipulation-with-tidyverse",
+    "href": "workshops.html#r-workshop-series-4-data-manipulation-with-tidyverse",
+    "title": "Workshops",
+    "section": "R Workshop Series #4: Data Manipulation with Tidyverse",
+    "text": "R Workshop Series #4: Data Manipulation with Tidyverse\n\nOverview\nThis workshop focused on the essentials of data manipulation using the Tidyverse. I demonstrated how to transform raw data into tidy, analysis-ready formats using key dplyr verbs and the piping operator. The session emphasized practical data wrangling techniques to streamline analysis workflows.\n\n\n\n\nLearning Outcomes\n\nUnderstand the concept of data wrangling and tidy data.\n\nDifferentiate between tibbles and traditional data frames.\n\nConvert data between wide and long formats.\n\nApply key dplyr verbs for data transformation.\n\nUtilize the piping operator to build efficient data pipelines.\n\n\n\n\nKey Skills Gained\n\nData wrangling with Tidyverse\n\nTidy data conversion\n\nMastery of dplyr verbs\n\nEfficient data transformation\n\nPipeline construction"
+  },
+  {
+    "objectID": "workshops.html#r-workshop-series-3-data-input-and-output",
+    "href": "workshops.html#r-workshop-series-3-data-input-and-output",
+    "title": "Workshops",
+    "section": "R Workshop Series #3: Data Input and Output",
+    "text": "R Workshop Series #3: Data Input and Output\n\nOverview\nThis workshop covers the fundamentals of data input and output in R. I explained how to work with built-in datasets, import data from various file formats, scrape data from the web, and export processed data. The session also highlighted the importance of version control with Git and GitHub.\n\n\n\n\nLearning Outcomes\n\nEfficiently use built-in R datasets.\n\nImport data from CSV, XLSX, and SPSS files.\n\nScrape web data using SelectorGadget and rvest.\n\nExport and save data in different formats.\n\nUnderstand the basics of version control with Git and GitHub.\n\n\n\n\nKey Skills Gained\n\nData import/export techniques\n\nWeb data scraping\n\nFile handling in R\n\nVersion control with Git/GitHub\n\nPractical data I/O operations"
+  },
+  {
+    "objectID": "workshops.html#r-workshop-series-2-r-data-types",
+    "href": "workshops.html#r-workshop-series-2-r-data-types",
+    "title": "Workshops",
+    "section": "R Workshop Series #2: R Data Types",
+    "text": "R Workshop Series #2: R Data Types\n\nOverview\nThis introductory workshop covered the core data types and structures in R. Participants learned about atomic data types (numeric, character, logical) as well as more complex structures such as vectors, matrices, data frames, and lists. This session laid the groundwork for effective data manipulation in R.\n\n\n\n\nLearning Outcomes\n\nDefine and differentiate between atomic data types in R.\n\nUnderstand the use cases for vectors, matrices, data frames, and lists.\n\nLearn when and how to use each data type effectively.\n\nCreate and manipulate data frames using R.\n\nPerform basic operations to view and transform data.\n\n\n\n\nKey Skills Gained\n\nUnderstanding of R data types\n\nData structure manipulation\n\nCreation and management of data frames\n\nFundamental data operations\n\nFoundational R programming knowledge"
+  },
+  {
+    "objectID": "workshops.html#r-workshop-series-1-introduction-to-r",
+    "href": "workshops.html#r-workshop-series-1-introduction-to-r",
+    "title": "Workshops",
+    "section": "R Workshop Series #1: Introduction to R",
+    "text": "R Workshop Series #1: Introduction to R\n\nOverview\nThis beginner-friendly workshop introduced the basics of R and RStudio. Participants learned how to install R and RStudio, navigate the interface, create and run scripts, download packages, and document projects using R Markdown. The session provided essential tips for new users to become comfortable with R.\n\n\n\n\nLearning Outcomes\n\nNavigate the R and RStudio interface confidently.\n\nInstall R, RStudio, and essential R packages.\n\nCreate, run, and save R scripts.\n\nUse R Markdown to document projects effectively.\n\nLeverage online resources and the R community for continuous learning.\n\n\n\n\nKey Skills Gained\n\nR installation and setup\n\nRStudio navigation\n\nScript writing and execution\n\nR Markdown documentation\n\nEffective use of R community resources"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Welcome",
+    "section": "",
+    "text": "I hold a Master of Science in Digital Marketing from Cal Poly Pomona, and I bring a unique blend of skills in R programming, Python, and web analytics to every project. Whether it’s through building interactive dashboards, delivering hands-on workshops, or publishing reproducible research, I thrive on turning complex data into clear, compelling narratives."
+  },
+  {
+    "objectID": "index.html#what-i-do",
+    "href": "index.html#what-i-do",
+    "title": "Welcome",
+    "section": "",
+    "text": "Data Analysis & Visualization: Creating interactive and informative visualizations using R and Python.\nDigital Marketing Strategies: Leveraging web analytics, SEO, and targeted campaigns to boost online presence.\nWorkshops & Training: Delivering engaging, hands-on workshops that empower professionals to harness the power of data.\nReproducible Reporting: Building seamlessly integrated documents and reports using Quarto."
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Welcome",
+    "section": "",
+    "text": "A digital hub for preserving and sharing cherished family memories, The Chubb Archive curates old physical films that have been digitized and hosted on YouTube. I built thechubbarchive.com as an organized gateway to these films, integrating Google Analytics to track and confirm engagement from family members across various states.\n\n\n\nIn my role as an Analyst, I revolutionized the process of defining military installation market areas. Previously, data was manually recorded—a time-consuming and hazardous method. I developed a Shiny R app that integrates with Strava to automatically capture GPS data during field drives. By leveraging the sf and leaflet packages along with the HERE API, the app produces an interactive map that improves both the accuracy and safety of data collection.\n\n\n\nTasked with organizing and categorizing flagged data from a large, complex database, I noticed that team morale was suffering due to the overwhelming volume of work. To address this, I created a straightforward yet effective dashboard that displays key metrics and a visual history of the team’s progress. This tool not only streamlined data processing but also boosted team motivation by clearly showcasing achievements over time.\nExplore Projects"
+  },
+  {
+    "objectID": "index.html#lets-connect",
+    "href": "index.html#lets-connect",
+    "title": "Welcome",
+    "section": "",
+    "text": "I’m always looking to collaborate and share ideas. Feel free to contact me or connect on LinkedIn.\n\nWelcome to my portfolio—where data meets creativity and reproducibility drives innovation."
+  },
+  {
+    "objectID": "index.html#reproducible-research-quarto",
+    "href": "index.html#reproducible-research-quarto",
+    "title": "Welcome",
+    "section": "",
+    "text": "I am a strong advocate for reproducible research, and I harness modern tools like Quarto to create dynamic, transparent documents and websites. By integrating code, narrative, and visualizations, Quarto empowers me to develop work that is easily updated, shared, and verified. This approach not only enhances the integrity of my research but also makes it accessible to collaborators and the broader community."
+  },
+  {
+    "objectID": "projects.html#the-chubb-archive",
+    "href": "projects.html#the-chubb-archive",
+    "title": "Featured Projects",
+    "section": "The Chubb Archive",
+    "text": "The Chubb Archive\nI created thechubbarchive.com as a digital hub for preserving and sharing cherished family memories. This project curates a collection of old physical films that have been digitized and hosted on YouTube. The platform not only serves as an organized gateway to these films but also integrates Google Analytics to track engagement from family members across various states."
+  },
+  {
+    "objectID": "projects.html#a-safer-way-to-collect-data-market-area-mapping",
+    "href": "projects.html#a-safer-way-to-collect-data-market-area-mapping",
+    "title": "Featured Projects",
+    "section": "A Safer Way to Collect Data: Market Area Mapping",
+    "text": "A Safer Way to Collect Data: Market Area Mapping\nIn my role as an Analyst, I was tasked with defining the “market area” of military installations. The previous process involved manually noting down data at major intersections—a method that was time-consuming, less accurate, and hazardous. To overcome these challenges, I developed a Shiny R application that integrates with the Strava API to automatically capture GPS data during field drives. Using the sf and leaflet packages, the app generates an interactive map of our driving routes, significantly improving safety and accuracy. Additionally, the application leverages the HERE API to estimate market areas, providing a valuable layer of verification for our data collection process."
+  },
+  {
+    "objectID": "projects.html#motivation-through-a-dashboard",
+    "href": "projects.html#motivation-through-a-dashboard",
+    "title": "Featured Projects",
+    "section": "Motivation Through a Dashboard",
+    "text": "Motivation Through a Dashboard\nWhile processing and categorizing flagged data from a large, complex database, I observed that team motivation was dwindling due to the sheer volume of work and the slow pace of progress. To address this, I created a simple yet effective dashboard that visualizes key metrics and tracks the team’s progress over time. This dashboard not only streamlined data management but also boosted team morale by clearly showcasing their achievements, keeping everyone focused on the ultimate goal.\n\nFeel free to explore these projects further to see how I blend data analytics with innovative digital solutions."
+  }
+]

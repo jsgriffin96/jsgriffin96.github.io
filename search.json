@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome",
+    "title": "Hi, I’m Jarrod Griffin",
     "section": "",
-    "text": "I’m an analyst specializing in digital marketing and data analytics. I transform raw data into actionable insights, blending technical expertise with creative strategy to drive impactful solutions.\n\n\nI hold a Master of Science in Digital Marketing from Cal Poly Pomona, and I bring a unique blend of skills in R programming, Python, and web analytics to every project. Whether it’s through building interactive dashboards, delivering hands-on workshops, or publishing reproducible research, I thrive on turning complex data into clear, compelling narratives.\n\n\n\nI am a strong advocate for reproducible research, and I harness modern tools like Quarto to create dynamic, transparent documents and websites. By integrating code, narrative, and visualizations, Quarto empowers me to develop work that is easily updated, shared, and verified. This approach not only enhances the integrity of my research but also makes it accessible to collaborators and the broader community.\n\n\n\n\nData Analysis & Visualization: Creating interactive and informative visualizations using R and Python.\nDigital Marketing Strategies: Leveraging web analytics, SEO, and targeted campaigns to boost online presence.\nWorkshops & Training: Delivering engaging, hands-on workshops that empower professionals to harness the power of data.\nReproducible Reporting: Building seamlessly integrated documents and reports using Quarto.\n\n\n\n\n\n\nA digital hub for preserving and sharing cherished family memories, The Chubb Archive curates old physical films that have been digitized and hosted on YouTube. I built thechubbarchive.com as an organized gateway to these films, integrating Google Analytics to track and confirm engagement from family members across various states.\n\n\n\nIn my role as an Analyst, I revolutionized the process of defining military installation market areas. Previously, data was manually recorded—a time-consuming and hazardous method. I developed a Shiny R app that integrates with Strava to automatically capture GPS data during field drives. By leveraging the sf and leaflet packages along with the HERE API, the app produces an interactive map that improves both the accuracy and safety of data collection.\n\n\n\nTasked with organizing and categorizing flagged data from a large, complex database, I noticed that team morale was suffering due to the overwhelming volume of work. To address this, I created a straightforward yet effective dashboard that displays key metrics and a visual history of the team’s progress. This tool not only streamlined data processing but also boosted team motivation by clearly showcasing achievements over time.\nExplore Projects\n\n\n\n\nI’m always looking to collaborate and share ideas. Feel free to contact me or connect on LinkedIn.\n\nWelcome to my portfolio—where data meets creativity and reproducibility drives innovation."
+    "text": "I’m an analyst specializing in digital marketing and data analytics. I transform raw data into actionable insights, blending technical expertise with creative strategy to drive impactful solutions."
   },
   {
     "objectID": "about.html",
@@ -18,7 +18,7 @@
     "href": "projects.html",
     "title": "Featured Projects",
     "section": "",
-    "text": "Below are some key projects from my portfolio that highlight my work in digital innovation, data analytics, and interactive application development."
+    "text": "Below are some key projects from my portfolio that showcase my work in digital innovation, data analytics, and interactive application development. Each project also highlights the skills I honed along the way."
   },
   {
     "objectID": "projects.html#data-visualization-dashboard",
@@ -46,7 +46,7 @@
     "href": "workshops.html",
     "title": "Workshops",
     "section": "",
-    "text": "Below are the workshops I have delivered, along with an overview of the topics covered, the learning outcomes, and the key skills I gained from each session. The R Workshop Series was expanded upon and used as a prerequisite for a Masters program."
+    "text": "Below are the workshops I have delivered throughout my time at Cal Poly Pomona’s Center for Customer Insights and Digital Marketing, along with an overview of the topics covered, the learning outcomes, and the key skills I gained from each session. The R Workshop Series was expanded upon and used as a prerequisite for a Masters program."
   },
   {
     "objectID": "workshops.html#introduction-to-r-programming",
@@ -128,57 +128,64 @@
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
-    "title": "Welcome",
-    "section": "",
-    "text": "I hold a Master of Science in Digital Marketing from Cal Poly Pomona, and I bring a unique blend of skills in R programming, Python, and web analytics to every project. Whether it’s through building interactive dashboards, delivering hands-on workshops, or publishing reproducible research, I thrive on turning complex data into clear, compelling narratives."
+    "title": "Hi, I’m Jarrod Griffin",
+    "section": "About Me",
+    "text": "About Me\nI hold a Master of Science in Digital Marketing from Cal Poly Pomona, and I bring a unique blend of skills in R programming, Python, and web analytics to every project. Whether it’s through building interactive dashboards, delivering hands-on workshops, or publishing reproducible research, I thrive on turning complex data into clear, compelling narratives."
   },
   {
     "objectID": "index.html#what-i-do",
     "href": "index.html#what-i-do",
-    "title": "Welcome",
-    "section": "",
-    "text": "Data Analysis & Visualization: Creating interactive and informative visualizations using R and Python.\nDigital Marketing Strategies: Leveraging web analytics, SEO, and targeted campaigns to boost online presence.\nWorkshops & Training: Delivering engaging, hands-on workshops that empower professionals to harness the power of data.\nReproducible Reporting: Building seamlessly integrated documents and reports using Quarto."
+    "title": "Hi, I’m Jarrod Griffin",
+    "section": "What I Do",
+    "text": "What I Do\n\nData Analysis & Visualization: Creating interactive and informative visualizations using R and Python.\nDigital Marketing Strategies: Leveraging web analytics, SEO, and targeted campaigns to boost online presence.\nWorkshops & Training: Delivering engaging, hands-on workshops that empower professionals to harness the power of data.\nReproducible Reporting: Building seamlessly integrated documents and reports using Quarto."
   },
   {
     "objectID": "index.html#featured-projects",
     "href": "index.html#featured-projects",
-    "title": "Welcome",
-    "section": "",
-    "text": "A digital hub for preserving and sharing cherished family memories, The Chubb Archive curates old physical films that have been digitized and hosted on YouTube. I built thechubbarchive.com as an organized gateway to these films, integrating Google Analytics to track and confirm engagement from family members across various states.\n\n\n\nIn my role as an Analyst, I revolutionized the process of defining military installation market areas. Previously, data was manually recorded—a time-consuming and hazardous method. I developed a Shiny R app that integrates with Strava to automatically capture GPS data during field drives. By leveraging the sf and leaflet packages along with the HERE API, the app produces an interactive map that improves both the accuracy and safety of data collection.\n\n\n\nTasked with organizing and categorizing flagged data from a large, complex database, I noticed that team morale was suffering due to the overwhelming volume of work. To address this, I created a straightforward yet effective dashboard that displays key metrics and a visual history of the team’s progress. This tool not only streamlined data processing but also boosted team motivation by clearly showcasing achievements over time.\nExplore Projects"
+    "title": "Hi, I’m Jarrod Griffin",
+    "section": "Featured Projects",
+    "text": "Featured Projects\n\nThe Chubb Archive\nA digital hub for preserving and sharing cherished family memories, The Chubb Archive curates old physical films that have been digitized and hosted on YouTube. I built thechubbarchive.com as an organized gateway to these films, integrating Google Analytics to track and confirm engagement from family members across various states.\n\n\nA Safer Way to Collect Data: Market Area Mapping\nIn my role as an Analyst, I revolutionized the process of defining military installation market areas. Previously, data was manually recorded—a time-consuming and hazardous method. I developed a Shiny R app that integrates with Strava to automatically capture GPS data during field drives. By leveraging the sf and leaflet packages along with the HERE API, the app produces an interactive map that improves both the accuracy and safety of data collection.\n\n\nMotivation Through a Dashboard\nTasked with organizing and categorizing flagged data from a large, complex database, I noticed that team morale was suffering due to the overwhelming volume of work. To address this, I created a straightforward yet effective dashboard that displays key metrics and a visual history of the team’s progress. This tool not only streamlined data processing but also boosted team motivation by clearly showcasing achievements over time.\nExplore Projects"
   },
   {
     "objectID": "index.html#lets-connect",
     "href": "index.html#lets-connect",
-    "title": "Welcome",
-    "section": "",
-    "text": "I’m always looking to collaborate and share ideas. Feel free to contact me or connect on LinkedIn.\n\nWelcome to my portfolio—where data meets creativity and reproducibility drives innovation."
+    "title": "Hi, I’m Jarrod Griffin",
+    "section": "Let’s Connect",
+    "text": "Let’s Connect\nI’m always looking to collaborate and share ideas. Feel free to contact me or connect on LinkedIn.\n\nWelcome to my portfolio—where data meets creativity and reproducibility drives innovation."
   },
   {
     "objectID": "index.html#reproducible-research-quarto",
     "href": "index.html#reproducible-research-quarto",
-    "title": "Welcome",
-    "section": "",
-    "text": "I am a strong advocate for reproducible research, and I harness modern tools like Quarto to create dynamic, transparent documents and websites. By integrating code, narrative, and visualizations, Quarto empowers me to develop work that is easily updated, shared, and verified. This approach not only enhances the integrity of my research but also makes it accessible to collaborators and the broader community."
+    "title": "Hi, I’m Jarrod Griffin",
+    "section": "Reproducible Research & Quarto",
+    "text": "Reproducible Research & Quarto\nI am a strong advocate for reproducible research, and I harness modern tools like Quarto to create dynamic, transparent documents and websites. By integrating code, narrative, and visualizations, Quarto empowers me to develop work that is easily updated, shared, and verified. This approach not only enhances the integrity of my research but also makes it accessible to collaborators and the broader community."
   },
   {
     "objectID": "projects.html#the-chubb-archive",
     "href": "projects.html#the-chubb-archive",
     "title": "Featured Projects",
     "section": "The Chubb Archive",
-    "text": "The Chubb Archive\nI created thechubbarchive.com as a digital hub for preserving and sharing cherished family memories. This project curates a collection of old physical films that have been digitized and hosted on YouTube. The platform not only serves as an organized gateway to these films but also integrates Google Analytics to track engagement from family members across various states."
+    "text": "The Chubb Archive\nI created thechubbarchive.com as a digital hub for preserving and sharing cherished family memories. This project curates a collection of old physical films that have been digitized and hosted on YouTube. The platform serves as an organized gateway to these films while integrating Google Analytics to track engagement from family members across various states.\nSkills Developed:\n\nWeb Development: Building a responsive website for digital archiving.\nDigital Curation: Organizing and presenting multimedia content.\nAnalytics Integration: Implementing Google Analytics to monitor user engagement.\nProject Management: Coordinating digitization and online publishing processes."
   },
   {
     "objectID": "projects.html#a-safer-way-to-collect-data-market-area-mapping",
     "href": "projects.html#a-safer-way-to-collect-data-market-area-mapping",
     "title": "Featured Projects",
     "section": "A Safer Way to Collect Data: Market Area Mapping",
-    "text": "A Safer Way to Collect Data: Market Area Mapping\nIn my role as an Analyst, I was tasked with defining the “market area” of military installations. The previous process involved manually noting down data at major intersections—a method that was time-consuming, less accurate, and hazardous. To overcome these challenges, I developed a Shiny R application that integrates with the Strava API to automatically capture GPS data during field drives. Using the sf and leaflet packages, the app generates an interactive map of our driving routes, significantly improving safety and accuracy. Additionally, the application leverages the HERE API to estimate market areas, providing a valuable layer of verification for our data collection process."
+    "text": "A Safer Way to Collect Data: Market Area Mapping\nIn my role as an Analyst, I was responsible for determining the “market area” of military installations—a process that previously involved manual note-taking at major intersections. To overcome the challenges of inaccuracy and safety risks, I developed a Shiny R application that integrates with the Strava API to automatically capture GPS data during field drives. Using the sf and leaflet packages, the app generates an interactive map of our routes, significantly enhancing both safety and data accuracy. Additionally, the HERE API is utilized to estimate market areas, adding an extra layer of verification.\nSkills Developed:\n\nAdvanced R Programming: Building interactive applications with Shiny.\nAPI Integration: Working with Strava and HERE APIs to automate data collection.\nGeospatial Analysis: Using sf and leaflet for mapping and spatial data visualization.\nProcess Optimization: Streamlining data collection methods for improved safety and efficiency."
   },
   {
     "objectID": "projects.html#motivation-through-a-dashboard",
     "href": "projects.html#motivation-through-a-dashboard",
     "title": "Featured Projects",
     "section": "Motivation Through a Dashboard",
-    "text": "Motivation Through a Dashboard\nWhile processing and categorizing flagged data from a large, complex database, I observed that team motivation was dwindling due to the sheer volume of work and the slow pace of progress. To address this, I created a simple yet effective dashboard that visualizes key metrics and tracks the team’s progress over time. This dashboard not only streamlined data management but also boosted team morale by clearly showcasing their achievements, keeping everyone focused on the ultimate goal.\n\nFeel free to explore these projects further to see how I blend data analytics with innovative digital solutions."
+    "text": "Motivation Through a Dashboard\nWhile managing a large, complex database of flagged data, I observed that the team’s motivation was waning due to the overwhelming volume and slow progress. To address this, I quickly created a simple yet effective dashboard that visualizes key metrics and tracks the team’s progress over time. The dashboard provided clear insights into accomplishments, significantly boosting team morale and focus on the end goal.\nSkills Developed:\n\nData Visualization: Designing dashboards that effectively communicate progress.\nUser Experience (UX): Crafting visual tools that motivate and engage team members.\nPerformance Metrics Analysis: Identifying and presenting key performance indicators.\nDashboard Development: Integrating dynamic data displays within existing applications."
+  },
+  {
+    "objectID": "projects.html#analyzing-seo-practices-tri-and-industry-competitors",
+    "href": "projects.html#analyzing-seo-practices-tri-and-industry-competitors",
+    "title": "Featured Projects",
+    "section": "Analyzing SEO Practices: TRI and Industry Competitors",
+    "text": "Analyzing SEO Practices: TRI and Industry Competitors\nIn this project, I conducted a comprehensive analysis of SEO practices for Trauma Resource Institute(TRI) and compared them with industry competitors. By combining web scraping, keyword research, and data visualization, I identified strengths and weaknesses in TRI’s online presence and developed actionable recommendations for improving digital strategy.\nSkills Developed:\n\nSEO Analysis: Evaluated and benchmarked SEO performance across multiple competitors.\nData Scraping & Cleaning: Wrote a script to collect and process data from various online sources.\nInteractive Reporting: Created an interactive HTML report to visualize comparative SEO metrics.\nStrategic Insights: Synthesized data into actionable recommendations for digital marketing initiatives.\n\nBelow is an embedded demonstration of the interactive report:"
   }
 ]

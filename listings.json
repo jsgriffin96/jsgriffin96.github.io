@@ -2,6 +2,10 @@
   {
     "listing": "/workshops.html",
     "items": [
+      "/workshops/12-Portfolio-Website-with-Quarto.html",
+      "/workshops/11-Quarto-Slides-with-Revealjs.html",
+      "/workshops/10-Interactive-Report-Authoring.html",
+      "/workshops/09-Intro-to-Quarto.html",
       "/workshops/08-Create Interactive Apps with Shiny in R.html",
       "/workshops/07-Text Mining in R.html",
       "/workshops/06-Data Visualization with R.html",

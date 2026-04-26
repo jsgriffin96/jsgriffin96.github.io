@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Marketing analytics projects spanning data pipeline engineering, predictive modeling, time-series analysis, and geospatial analytics.">
 
-<title>R Workshop Series #6: Data Visualization with R – Jarrod Griffin</title>
+<title>Marketing Analytics – Jarrod Griffin</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,23 +27,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bdc94545b75d3d4ae3802361ea1590e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-4bdc94545b75d3d4ae3802361ea1590e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,14 +80,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 
-<meta property="og:title" content="R Workshop Series #6: Data Visualization with R – Jarrod Griffin">
-<meta property="og:description" content="">
-<meta property="og:image" content="https://img.youtube.com/vi/up38QgJaru4/hqdefault.jpg">
+<meta property="og:title" content="Marketing Analytics – Jarrod Griffin">
+<meta property="og:description" content="Marketing analytics projects spanning data pipeline engineering, predictive modeling, time-series analysis, and geospatial analytics.">
 <meta property="og:site_name" content="Jarrod Griffin">
-<meta name="twitter:title" content="R Workshop Series #6: Data Visualization with R – Jarrod Griffin">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://img.youtube.com/vi/up38QgJaru4/hqdefault.jpg">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Marketing Analytics – Jarrod Griffin">
+<meta name="twitter:description" content="Marketing analytics projects spanning data pipeline engineering, predictive modeling, time-series analysis, and geospatial analytics.">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -96,7 +95,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Jarrod Griffin</span>
     </a>
   </div>
@@ -107,27 +106,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../digital-marketing.html"> 
+    <a class="nav-link" href="./digital-marketing.html"> 
 <span class="menu-text">Digital Marketing</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../marketing-analytics.html"> 
+    <a class="nav-link active" href="./marketing-analytics.html" aria-current="page"> 
 <span class="menu-text">Marketing Analytics</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teaching.html"> 
+    <a class="nav-link" href="./teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../services.html"> 
+    <a class="nav-link" href="./services.html"> 
 <span class="menu-text">Services</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../resume.html"> 
+    <a class="nav-link" href="./resume.html"> 
 <span class="menu-text">Résumé</span></a>
   </li>  
 </ul>
@@ -141,8 +140,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#rising-stars-pipeline" id="toc-rising-stars-pipeline" class="nav-link active" data-scroll-target="#rising-stars-pipeline">GA4 → BigQuery → DuckDB Conversion Modeling Pipeline</a>
+  <ul class="collapse">
+  <li><a href="#pipeline-architecture" id="toc-pipeline-architecture" class="nav-link" data-scroll-target="#pipeline-architecture">Pipeline Architecture</a></li>
+  <li><a href="#predictive-modeling-conversion-drivers" id="toc-predictive-modeling-conversion-drivers" class="nav-link" data-scroll-target="#predictive-modeling-conversion-drivers">Predictive Modeling — Conversion Drivers</a></li>
+  </ul></li>
+  <li><a href="#ont-parking" id="toc-ont-parking" class="nav-link" data-scroll-target="#ont-parking">Operations Analytics — Ontario International Airport Parking</a>
+  <ul class="collapse">
+  <li><a href="#data-engineering" id="toc-data-engineering" class="nav-link" data-scroll-target="#data-engineering">Data Engineering</a></li>
+  <li><a href="#interactive-visualizations" id="toc-interactive-visualizations" class="nav-link" data-scroll-target="#interactive-visualizations">Interactive Visualizations</a></li>
+  </ul></li>
+  <li><a href="#geospatial-analytics-market-area-mapping-with-shiny-apis" id="toc-geospatial-analytics-market-area-mapping-with-shiny-apis" class="nav-link" data-scroll-target="#geospatial-analytics-market-area-mapping-with-shiny-apis">Geospatial Analytics — Market Area Mapping with Shiny &amp; APIs</a>
+  <ul class="collapse">
+  <li><a href="#the-problem" id="toc-the-problem" class="nav-link" data-scroll-target="#the-problem">The Problem</a></li>
+  <li><a href="#the-solution" id="toc-the-solution" class="nav-link" data-scroll-target="#the-solution">The Solution</a></li>
+  </ul></li>
+  <li><a href="#team-performance-dashboard" id="toc-team-performance-dashboard" class="nav-link" data-scroll-target="#team-performance-dashboard">Team Performance Dashboard</a></li>
+  <li><a href="#analytics-stack" id="toc-analytics-stack" class="nav-link" data-scroll-target="#analytics-stack">Analytics Stack</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -152,16 +173,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">R Workshop Series #6: Data Visualization with R</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Data Visualization</div>
-    <div class="quarto-category">R Programming</div>
-    <div class="quarto-category">ggplot2</div>
-    <div class="quarto-category">Lattice</div>
-    <div class="quarto-category">Data Analysis</div>
-  </div>
-  </div>
+<h1 class="title">Marketing Analytics</h1>
+</div>
 
+<div>
+  <div class="description">
+    Marketing analytics projects spanning data pipeline engineering, predictive modeling, time-series analysis, and geospatial analytics.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -176,48 +195,198 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </header>
 
 
-<section id="overview" class="level4">
-<h4 class="anchored" data-anchor-id="overview"><strong>Overview</strong></h4>
-<p>This advanced workshop focused on creating publication-quality data visualizations using R. We explored various chart types—from simple graphs to sophisticated layered visuals—leveraging R’s built-in functions along with packages like <strong>ggplot2</strong> and <strong>lattice</strong>. The session helped participants select the best visualization techniques for different data scenarios.</p>
-</section>
-<div class="columns">
-<div class="column" style="width:50%;">
-<section id="learning-outcomes" class="level4">
-<h4 class="anchored" data-anchor-id="learning-outcomes"><strong>Learning Outcomes</strong></h4>
+<p>This page showcases my marketing analytics and data engineering work — from building cloud-to-local pipelines on live campaign data, to statistical modeling of conversion drivers, to interactive operational analytics for stakeholder decision-making. My target audience is analytics managers, data-driven marketing teams, and academic search committees looking for someone who can own the full analytics stack.</p>
+<hr>
+<section id="rising-stars-pipeline" class="level2">
+<h2 class="anchored" data-anchor-id="rising-stars-pipeline">GA4 → BigQuery → DuckDB Conversion Modeling Pipeline</h2>
+<p><em>This covers the data engineering and modeling layer of the Rising Stars engagement. For the website build, GTM/GA4 implementation, and campaign analytics, see <a href="./digital-marketing.html#rising-stars">Digital Marketing → Rising Stars</a>.</em></p>
+<p>For the Rising Stars Muay Thai engagement, I designed and built a multi-stage data pipeline to process raw GA4 event exports at scale and power downstream predictive modeling.</p>
+<section id="pipeline-architecture" class="level3">
+<h3 class="anchored" data-anchor-id="pipeline-architecture">Pipeline Architecture</h3>
+<pre><code>GA4 Raw Events
+    ↓
+BigQuery (Cloud Export)
+    ↓
+Apache Arrow (In-Memory Transfer)
+    ↓
+DuckDB (Local Query Engine)
+    ↓
+Session-Level Aggregations → R Modeling Environment</code></pre>
 <ul>
-<li>Identify and compare popular R visualization packages.<br>
-</li>
-<li>Understand the grammar of graphics using ggplot2.<br>
-</li>
-<li>Create charts for univariate and bivariate data.<br>
-</li>
-<li>Layer and customize visualizations to convey data insights effectively.<br>
-</li>
-<li>Filter and manipulate data with tidyverse functions.</li>
+<li><strong>BigQuery export</strong> — automated extraction of raw GA4 event data (sessions, events, user properties, ecommerce) to cloud storage.</li>
+<li><strong>GA4 Data API backfill</strong> — used the GA4 Data API to recover pre-BigQuery-export data, ensuring complete event-window coverage across both event cycles.</li>
+<li><strong>Apache Arrow transfer</strong> — zero-copy in-memory transport between cloud and local environments, eliminating intermediate CSV serialization.</li>
+<li><strong>DuckDB local engine</strong> — SQL-based session-level aggregation, feature engineering (page depth, scroll events, device type, traffic medium), and query optimization for fast iteration during modeling.</li>
 </ul>
 </section>
-</div><div class="column" style="width:50%;">
-<section id="key-skills-gained" class="level4">
-<h4 class="anchored" data-anchor-id="key-skills-gained"><strong>Key Skills Gained</strong></h4>
+<section id="predictive-modeling-conversion-drivers" class="level3">
+<h3 class="anchored" data-anchor-id="predictive-modeling-conversion-drivers">Predictive Modeling — Conversion Drivers</h3>
+<p>Built three logistic regression models — ticket conversion, PPV conversion, and combined conversion — to quantify what independently predicts a purchase.</p>
 <ul>
-<li>Advanced data visualization techniques<br>
-</li>
-<li>Mastery of ggplot2 and lattice<br>
-</li>
-<li>Layered chart creation<br>
-</li>
-<li>Data manipulation with tidyverse<br>
-</li>
-<li>Visual storytelling</li>
+<li><strong>Features:</strong> page depth, device category, traffic medium, pre/post-event timing, content engagement signals</li>
+<li><strong>Outputs:</strong> odds ratios and average marginal effects for each predictor — giving stakeholders an interpretable answer to “what moves the needle?”</li>
+<li><strong>Validation:</strong> compared in-sample fit against holdout periods to assess model stability across event cycles</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><em>All client metrics, session counts, and conversion figures are confidential. The pipeline architecture and modeling approach are described without proprietary data.</em></p>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="ont-parking" class="level2">
+<h2 class="anchored" data-anchor-id="ont-parking">Operations Analytics — Ontario International Airport Parking</h2>
+<p>As part of the Cal Poly Pomona CEO Business Challenge, I conducted a multi-year operational time-series analysis for <strong>Ontario International Airport (ONT)</strong>, exploring how parking revenue, passenger volumes, and ride-hailing (TNC) activity interact — with the goal of informing future-proof parking strategy and non-aeronautical revenue growth.</p>
+<section id="data-engineering" class="level3">
+<h3 class="anchored" data-anchor-id="data-engineering">Data Engineering</h3>
+<p>Working under strict data governance requirements (NDA), I:</p>
+<ul>
+<li>Integrated multiple datasets: parking revenue and transactions by lot, passenger counts by airline and direction, TNC trip volumes, and lot occupancy.</li>
+<li>Reshaped disparate sources into consistent monthly and weekly time series with engineered date features.</li>
+<li>Standardized categories across inconsistent vendor naming conventions.</li>
+<li>Generated a <strong>non-sensitive YAML schema</strong> describing table structures and missingness — enabling safe internal documentation without exposing raw values.</li>
 </ul>
 </section>
+<section id="interactive-visualizations" class="level3">
+<h3 class="anchored" data-anchor-id="interactive-visualizations">Interactive Visualizations</h3>
+<p>Built in R with Plotly and Quarto:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Visualization</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Stacked time-series (monthly revenue by lot)</td>
+<td>Reveal product mix shifts over time</td>
+</tr>
+<tr class="even">
+<td>Rank trajectory chart</td>
+<td>Track lot performance standings across periods</td>
+</tr>
+<tr class="odd">
+<td>Inbound vs.&nbsp;outbound flow chart</td>
+<td>Identify directional asymmetries in passenger volumes</td>
+</tr>
+<tr class="even">
+<td>TNC Sankey diagram</td>
+<td>Map ride-hail company → trip type relationships</td>
+</tr>
+<tr class="odd">
+<td>Weekly occupancy heatmap</td>
+<td>Expose day-of-week and seasonal occupancy patterns</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
 </div>
 </div>
-<div style="text-align: center;">
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/up38QgJaru4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></p>
+<div class="callout-body-container callout-body">
+<p><em>All ONT data and figures are confidential; this describes methods and visualization types, not proprietary results.</em></p>
 </div>
+</div>
+<hr>
+</section>
+</section>
+<section id="geospatial-analytics-market-area-mapping-with-shiny-apis" class="level2">
+<h2 class="anchored" data-anchor-id="geospatial-analytics-market-area-mapping-with-shiny-apis">Geospatial Analytics — Market Area Mapping with Shiny &amp; APIs</h2>
+<p>In my role as an Associate Analyst at Robert D. Niehaus, Inc., I replaced a manual, safety-compromised field data collection process with a <strong>Shiny R application</strong> that automates GPS-based market area delineation for military installations.</p>
+<section id="the-problem" class="level3">
+<h3 class="anchored" data-anchor-id="the-problem">The Problem</h3>
+<p>Determining housing “market areas” for 300+ U.S. military installations previously required analysts to manually note observations at major intersections — a slow, inaccurate, and unsafe process.</p>
+</section>
+<section id="the-solution" class="level3">
+<h3 class="anchored" data-anchor-id="the-solution">The Solution</h3>
+<ul>
+<li><strong>Strava API integration</strong> — the app captures GPS data passively during field drives, eliminating manual recording.</li>
+<li><strong><code>sf</code> + <code>leaflet</code> mapping</strong> — automatically generates an interactive map of the driven routes for immediate review and QA.</li>
+<li><strong>HERE API integration</strong> — provides independent market area estimates as a verification layer against the GPS-driven boundaries.</li>
+<li>Deployed as a self-contained Shiny app used operationally across the Housing Market Analysis team.</li>
+</ul>
+<p><strong>Impact:</strong> eliminated safety risks, improved spatial accuracy, and compressed the field data collection cycle for 300+ installation analyses.</p>
+<hr>
+</section>
+</section>
+<section id="team-performance-dashboard" class="level2">
+<h2 class="anchored" data-anchor-id="team-performance-dashboard">Team Performance Dashboard</h2>
+<p>While managing a large flagging and quality-control workflow at Robert D. Niehaus, I built a real-time progress dashboard in R to address declining team morale from an overwhelming, opaque workload.</p>
+<p>The dashboard visualized:</p>
+<ul>
+<li>Total flagged records resolved vs.&nbsp;remaining</li>
+<li>Team throughput over time (daily and weekly trends)</li>
+<li>Individual contribution breakdowns</li>
+</ul>
+<p><strong>Outcome:</strong> within days of deployment, the team had clear visibility into their progress. Morale improved measurably, and throughput increased as the path to completion became concrete and visible. A small analytics intervention with a direct operational impact.</p>
+<hr>
+</section>
+<section id="analytics-stack" class="level2">
+<h2 class="anchored" data-anchor-id="analytics-stack">Analytics Stack</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Layer</th>
+<th>Tools</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Tracking &amp; Tag Management</strong></td>
+<td>Google Tag Manager, GA4</td>
+</tr>
+<tr class="even">
+<td><strong>Cloud Data</strong></td>
+<td>BigQuery, GA4 Data API</td>
+</tr>
+<tr class="odd">
+<td><strong>Data Transport</strong></td>
+<td>Apache Arrow, Parquet</td>
+</tr>
+<tr class="even">
+<td><strong>Local Query Engine</strong></td>
+<td>DuckDB, SQL</td>
+</tr>
+<tr class="odd">
+<td><strong>Analysis &amp; Modeling</strong></td>
+<td>R (tidyverse, lubridate, broom), Python</td>
+</tr>
+<tr class="even">
+<td><strong>Visualization</strong></td>
+<td>Plotly, ggplot2, leaflet, DT</td>
+</tr>
+<tr class="odd">
+<td><strong>Reporting</strong></td>
+<td>Quarto (HTML, PDF, interactive)</td>
+</tr>
+<tr class="even">
+<td><strong>Dashboards</strong></td>
+<td>Shiny</td>
+</tr>
+</tbody>
+</table>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

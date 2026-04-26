@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Digital marketing projects spanning web development, SEO, content strategy, campaign analytics, and email marketing.">
 
-<title>R Workshop Series #6: Data Visualization with R – Jarrod Griffin</title>
+<title>Digital Marketing – Jarrod Griffin</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,23 +27,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4bdc94545b75d3d4ae3802361ea1590e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-4bdc94545b75d3d4ae3802361ea1590e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,14 +80,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 
-<meta property="og:title" content="R Workshop Series #6: Data Visualization with R – Jarrod Griffin">
-<meta property="og:description" content="">
-<meta property="og:image" content="https://img.youtube.com/vi/up38QgJaru4/hqdefault.jpg">
+<meta property="og:title" content="Digital Marketing – Jarrod Griffin">
+<meta property="og:description" content="Digital marketing projects spanning web development, SEO, content strategy, campaign analytics, and email marketing.">
 <meta property="og:site_name" content="Jarrod Griffin">
-<meta name="twitter:title" content="R Workshop Series #6: Data Visualization with R – Jarrod Griffin">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://img.youtube.com/vi/up38QgJaru4/hqdefault.jpg">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Digital Marketing – Jarrod Griffin">
+<meta name="twitter:description" content="Digital marketing projects spanning web development, SEO, content strategy, campaign analytics, and email marketing.">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -96,7 +95,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Jarrod Griffin</span>
     </a>
   </div>
@@ -107,27 +106,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../digital-marketing.html"> 
+    <a class="nav-link active" href="./digital-marketing.html" aria-current="page"> 
 <span class="menu-text">Digital Marketing</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../marketing-analytics.html"> 
+    <a class="nav-link" href="./marketing-analytics.html"> 
 <span class="menu-text">Marketing Analytics</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teaching.html"> 
+    <a class="nav-link" href="./teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../services.html"> 
+    <a class="nav-link" href="./services.html"> 
 <span class="menu-text">Services</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../resume.html"> 
+    <a class="nav-link" href="./resume.html"> 
 <span class="menu-text">Résumé</span></a>
   </li>  
 </ul>
@@ -141,8 +140,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#rising-stars" id="toc-rising-stars" class="nav-link active" data-scroll-target="#rising-stars">Rising Stars Muay Thai — Brand Launch &amp; Campaign Analytics</a>
+  <ul class="collapse">
+  <li><a href="#web-development-measurement-implementation" id="toc-web-development-measurement-implementation" class="nav-link" data-scroll-target="#web-development-measurement-implementation">Web Development &amp; Measurement Implementation</a></li>
+  <li><a href="#campaign-analysis-growth-results" id="toc-campaign-analysis-growth-results" class="nav-link" data-scroll-target="#campaign-analysis-growth-results">Campaign Analysis &amp; Growth Results</a></li>
+  <li><a href="#seo-strategy" id="toc-seo-strategy" class="nav-link" data-scroll-target="#seo-strategy">SEO Strategy</a></li>
+  </ul></li>
+  <li><a href="#seo-competitive-analysis-trauma-resource-institute" id="toc-seo-competitive-analysis-trauma-resource-institute" class="nav-link" data-scroll-target="#seo-competitive-analysis-trauma-resource-institute">SEO Competitive Analysis — Trauma Resource Institute</a>
+  <ul class="collapse">
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a></li>
+  <li><a href="#deliverable" id="toc-deliverable" class="nav-link" data-scroll-target="#deliverable">Deliverable</a></li>
+  </ul></li>
+  <li><a href="#enterprise-content-management-cascade-cms-automation" id="toc-enterprise-content-management-cascade-cms-automation" class="nav-link" data-scroll-target="#enterprise-content-management-cascade-cms-automation">Enterprise Content Management — Cascade CMS Automation</a>
+  <ul class="collapse">
+  <li><a href="#what-was-built" id="toc-what-was-built" class="nav-link" data-scroll-target="#what-was-built">What Was Built</a></li>
+  <li><a href="#digital-marketing-impact" id="toc-digital-marketing-impact" class="nav-link" data-scroll-target="#digital-marketing-impact">Digital Marketing Impact</a></li>
+  </ul></li>
+  <li><a href="#email-marketing-hubspot-analytics" id="toc-email-marketing-hubspot-analytics" class="nav-link" data-scroll-target="#email-marketing-hubspot-analytics">Email Marketing &amp; HubSpot Analytics</a></li>
+  <li><a href="#digital-archiving-web-development-the-chubb-archive" id="toc-digital-archiving-web-development-the-chubb-archive" class="nav-link" data-scroll-target="#digital-archiving-web-development-the-chubb-archive">Digital Archiving &amp; Web Development — The Chubb Archive</a></li>
+  <li><a href="#cba-innovation-symposium-ai-growth-lab" id="toc-cba-innovation-symposium-ai-growth-lab" class="nav-link" data-scroll-target="#cba-innovation-symposium-ai-growth-lab">CBA Innovation Symposium — AI Growth Lab</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -152,16 +175,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">R Workshop Series #6: Data Visualization with R</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Data Visualization</div>
-    <div class="quarto-category">R Programming</div>
-    <div class="quarto-category">ggplot2</div>
-    <div class="quarto-category">Lattice</div>
-    <div class="quarto-category">Data Analysis</div>
-  </div>
-  </div>
+<h1 class="title">Digital Marketing</h1>
+</div>
 
+<div>
+  <div class="description">
+    Digital marketing projects spanning web development, SEO, content strategy, campaign analytics, and email marketing.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -176,48 +197,126 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </header>
 
 
-<section id="overview" class="level4">
-<h4 class="anchored" data-anchor-id="overview"><strong>Overview</strong></h4>
-<p>This advanced workshop focused on creating publication-quality data visualizations using R. We explored various chart types—from simple graphs to sophisticated layered visuals—leveraging R’s built-in functions along with packages like <strong>ggplot2</strong> and <strong>lattice</strong>. The session helped participants select the best visualization techniques for different data scenarios.</p>
-</section>
-<div class="columns">
-<div class="column" style="width:50%;">
-<section id="learning-outcomes" class="level4">
-<h4 class="anchored" data-anchor-id="learning-outcomes"><strong>Learning Outcomes</strong></h4>
+<p>This page showcases my applied digital marketing work — from standing up a full measurement stack for a live brand launch, to auditing enterprise content systems, to analyzing competitive SEO landscapes. My target audience is marketing managers, agency directors, and academic search committees looking for a practitioner who can move between strategy and execution.</p>
+<hr>
+<section id="rising-stars" class="level2">
+<h2 class="anchored" data-anchor-id="rising-stars">Rising Stars Muay Thai — Brand Launch &amp; Campaign Analytics</h2>
+<p>I designed, built, and deployed the full website for Rising Stars Muay Thai and then ran an end-to-end digital analytics engagement across two live event cycles.</p>
+<section id="web-development-measurement-implementation" class="level3">
+<h3 class="anchored" data-anchor-id="web-development-measurement-implementation">Web Development &amp; Measurement Implementation</h3>
 <ul>
-<li>Identify and compare popular R visualization packages.<br>
-</li>
-<li>Understand the grammar of graphics using ggplot2.<br>
-</li>
-<li>Create charts for univariate and bivariate data.<br>
-</li>
-<li>Layer and customize visualizations to convey data insights effectively.<br>
-</li>
-<li>Filter and manipulate data with tidyverse functions.</li>
+<li>Built a responsive, audience-focused site from scratch and deployed it to production.</li>
+<li>Configured <strong>Google Tag Manager</strong> with a complete event taxonomy: page views, scroll depth, form submissions, button clicks, and custom conversion events (ticket purchases, PPV signups).</li>
+<li>Wired <strong>GA4</strong> to capture the full on-site customer journey with custom dimensions for event type, traffic medium, and device category.</li>
+<li>Established KPIs and reporting cadence aligned to ticket and PPV revenue goals.</li>
 </ul>
 </section>
-</div><div class="column" style="width:50%;">
-<section id="key-skills-gained" class="level4">
-<h4 class="anchored" data-anchor-id="key-skills-gained"><strong>Key Skills Gained</strong></h4>
+<section id="campaign-analysis-growth-results" class="level3">
+<h3 class="anchored" data-anchor-id="campaign-analysis-growth-results">Campaign Analysis &amp; Growth Results</h3>
+<p>Within two months of launch, the site grew to <strong>3,500+ unique visitors</strong> through a combination of organic search, social referral, and direct traffic from fight promotion.</p>
+<p>Ongoing analytics work covered:</p>
 <ul>
-<li>Advanced data visualization techniques<br>
-</li>
-<li>Mastery of ggplot2 and lattice<br>
-</li>
-<li>Layered chart creation<br>
-</li>
-<li>Data manipulation with tidyverse<br>
-</li>
-<li>Visual storytelling</li>
+<li><strong>Channel quality analysis</strong> — volume vs.&nbsp;engagement rate by acquisition source (organic, paid, social, direct)</li>
+<li><strong>Device-level conversion rates</strong> — identifying mobile vs.&nbsp;desktop conversion gaps</li>
+<li><strong>Pre- vs.&nbsp;post-event traffic patterns</strong> — quantifying the “announcement spike” and measuring decay curves across event cycles</li>
+<li><strong>Lead generation funnel</strong> — form submission rates for fighter applications and newsletter sign-ups</li>
 </ul>
 </section>
+<section id="seo-strategy" class="level3">
+<h3 class="anchored" data-anchor-id="seo-strategy">SEO Strategy</h3>
+<ul>
+<li>Conducted keyword research aligned to local search intent (gyms, martial arts, events in the target market).</li>
+<li>Structured page metadata, heading hierarchy, and internal linking to improve crawlability and topical authority.</li>
+<li>Monitored organic impressions and click-through rates in Google Search Console to refine on-page optimizations.</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
 </div>
 </div>
-<div style="text-align: center;">
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/up38QgJaru4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></p>
+<div class="callout-body-container callout-body">
+<p><em>All client metrics and conversion figures are confidential. The analytical approach and pipeline structure are described without proprietary data.</em></p>
 </div>
+</div>
+<p><a href="./marketing-analytics.html#rising-stars-pipeline">See the GA4 → BigQuery → DuckDB data pipeline and conversion modeling behind this engagement →</a></p>
+<hr>
+</section>
+</section>
+<section id="seo-competitive-analysis-trauma-resource-institute" class="level2">
+<h2 class="anchored" data-anchor-id="seo-competitive-analysis-trauma-resource-institute">SEO Competitive Analysis — Trauma Resource Institute</h2>
+<p>I conducted a comprehensive SEO audit for the <a href="https://www.traumaresourceinstitute.com/">Trauma Resource Institute (TRI)</a> and benchmarked their performance against key industry competitors.</p>
+<section id="approach" class="level3">
+<h3 class="anchored" data-anchor-id="approach">Approach</h3>
+<ul>
+<li><strong>Web scraping</strong> — collected on-page SEO signals (title tags, meta descriptions, heading structure, page speed proxies, and content length) across TRI and competitor domains.</li>
+<li><strong>Keyword research</strong> — mapped the competitive keyword landscape for trauma-informed therapy and practitioner training.</li>
+<li><strong>Gap analysis</strong> — identified content gaps and structural weaknesses relative to competitors ranking for high-intent queries.</li>
+</ul>
+</section>
+<section id="deliverable" class="level3">
+<h3 class="anchored" data-anchor-id="deliverable">Deliverable</h3>
+<p>An interactive HTML report built in R with Quarto, featuring:</p>
+<ul>
+<li>Side-by-side competitor comparison tables</li>
+<li>Keyword opportunity visualizations</li>
+<li>Prioritized, actionable recommendations for improving TRI’s organic search presence</li>
+</ul>
+<iframe src="data/TRI SEO Comparison.html" width="100%" height="600px" style="border: none;"></iframe>
+<hr>
+</section>
+</section>
+<section id="enterprise-content-management-cascade-cms-automation" class="level2">
+<h2 class="anchored" data-anchor-id="enterprise-content-management-cascade-cms-automation">Enterprise Content Management — Cascade CMS Automation</h2>
+<p>As part of a web operations engagement, I built a Python-based automation layer on top of the <strong>Cascade CMS REST API</strong> to transform manual content auditing and bulk publishing into scripted, repeatable processes.</p>
+<section id="what-was-built" class="level3">
+<h3 class="anchored" data-anchor-id="what-was-built">What Was Built</h3>
+<ul>
+<li><strong>Intelligent API Crawler (<code>discovery.py</code>)</strong> — a queue-based crawler that traverses complex folder hierarchies, extracts comprehensive asset metadata, and writes structured CSV inventory reports. Rate-limiting prevents server overload during large-scale crawls.</li>
+<li><strong>Headless CLI for AI &amp; Automation (<code>ai_client.py</code>)</strong> — a machine-to-machine client designed for automated pipelines and AI-agent consumption. Outputs clean JSON to <code>stdout</code> (parseable by downstream systems) while directing all progress logs to <code>stderr</code>. Handles recursive traversal of deeply nested <code>structuredDataNodes</code>, programmatic workflow resolution, and batch metadata edits across entire sites.</li>
+</ul>
+</section>
+<section id="digital-marketing-impact" class="level3">
+<h3 class="anchored" data-anchor-id="digital-marketing-impact">Digital Marketing Impact</h3>
+<ul>
+<li>Turned multi-hour manual content audits into seconds of script execution.</li>
+<li>Enabled AI models and automated scripts to read, modify, and publish CMS content without human intervention — a foundation for scalable content operations.</li>
+<li>Delivered a reusable internal tool that reduced operational overhead for ongoing digital content management.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="email-marketing-hubspot-analytics" class="level2">
+<h2 class="anchored" data-anchor-id="email-marketing-hubspot-analytics">Email Marketing &amp; HubSpot Analytics</h2>
+<p>Through my work at Cal Poly Pomona’s Center for Customer Insights and Digital Marketing (CCIDM), I developed and delivered a workshop on <strong>email marketing workflows and HubSpot analytics</strong> — one of the 13 workshops in the CCIDM series.</p>
+<p>The workshop covered:</p>
+<ul>
+<li>Building and segmenting email lists for targeted campaigns</li>
+<li>Designing workflows for lead nurturing and re-engagement</li>
+<li>Interpreting HubSpot analytics: open rates, click-through rates, bounce rates, and list health</li>
+<li>Connecting email performance to broader funnel goals</li>
+</ul>
+<p>In my role as <strong>Web Design and Media Analytics Team Lead</strong> at CCIDM, I also implemented <strong>HubSpot tracking</strong> across the organization’s website, establishing individual page-level and site-wide KPIs and creating the reporting infrastructure for ongoing performance measurement.</p>
+<hr>
+</section>
+<section id="digital-archiving-web-development-the-chubb-archive" class="level2">
+<h2 class="anchored" data-anchor-id="digital-archiving-web-development-the-chubb-archive">Digital Archiving &amp; Web Development — The Chubb Archive</h2>
+<p>I created <a href="http://thechubbarchive.com">thechubbarchive.com</a> as a personal project: a digital hub for preserving and sharing digitized family films hosted on YouTube. While small in scope, it demonstrates the full web development and analytics cycle — from content strategy and site architecture to Google Analytics integration for tracking engagement across geographically distributed users.</p>
+<p><strong>Skills demonstrated:</strong> responsive web development, digital content curation, YouTube channel management, Google Analytics implementation, audience-focused design.</p>
+<hr>
+</section>
+<section id="cba-innovation-symposium-ai-growth-lab" class="level2">
+<h2 class="anchored" data-anchor-id="cba-innovation-symposium-ai-growth-lab">CBA Innovation Symposium — AI Growth Lab</h2>
+<p>Presented at the <strong>Cal Poly Pomona CBA Innovation Symposium</strong>, this deck explores how AI tools are reshaping growth strategies across the digital marketing funnel — from content production and audience targeting to conversion optimization and analytics automation.</p>
+<p>Use the arrows or keyboard to navigate. Press <code>F</code> for full-screen.</p>
+<iframe src="https://cba-2026-slides.netlify.app/" width="100%" height="575px" style="border: 1px solid #ddd; border-radius: 4px;" allowfullscreen="">
+</iframe>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

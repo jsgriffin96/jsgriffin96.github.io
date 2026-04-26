@@ -1,38 +1,171 @@
 [
   {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Hi, I’m Jarrod Griffin",
-    "section": "About Me",
-    "text": "About Me\nI hold a Master of Science in Digital Marketing from Cal Poly Pomona (est. graduation date: May 2026), and I bring a unique blend of skills in R programming, Python, and web analytics to every project. Whether it’s through building interactive dashboards, delivering hands-on workshops, or publishing reproducible research, I thrive on turning complex data into clear, compelling narratives."
+    "objectID": "digital-marketing.html",
+    "href": "digital-marketing.html",
+    "title": "Digital Marketing",
+    "section": "",
+    "text": "This page showcases my applied digital marketing work — from standing up a full measurement stack for a live brand launch, to auditing enterprise content systems, to analyzing competitive SEO landscapes. My target audience is marketing managers, agency directors, and academic search committees looking for a practitioner who can move between strategy and execution."
+  },
+  {
+    "objectID": "digital-marketing.html#rising-stars",
+    "href": "digital-marketing.html#rising-stars",
+    "title": "Digital Marketing",
+    "section": "Rising Stars Muay Thai — Brand Launch & Campaign Analytics",
+    "text": "Rising Stars Muay Thai — Brand Launch & Campaign Analytics\nI designed, built, and deployed the full website for Rising Stars Muay Thai and then ran an end-to-end digital analytics engagement across two live event cycles.\n\nWeb Development & Measurement Implementation\n\nBuilt a responsive, audience-focused site from scratch and deployed it to production.\nConfigured Google Tag Manager with a complete event taxonomy: page views, scroll depth, form submissions, button clicks, and custom conversion events (ticket purchases, PPV signups).\nWired GA4 to capture the full on-site customer journey with custom dimensions for event type, traffic medium, and device category.\nEstablished KPIs and reporting cadence aligned to ticket and PPV revenue goals.\n\n\n\nCampaign Analysis & Growth Results\nWithin two months of launch, the site grew to 3,500+ unique visitors through a combination of organic search, social referral, and direct traffic from fight promotion.\nOngoing analytics work covered:\n\nChannel quality analysis — volume vs. engagement rate by acquisition source (organic, paid, social, direct)\nDevice-level conversion rates — identifying mobile vs. desktop conversion gaps\nPre- vs. post-event traffic patterns — quantifying the “announcement spike” and measuring decay curves across event cycles\nLead generation funnel — form submission rates for fighter applications and newsletter sign-ups\n\n\n\nSEO Strategy\n\nConducted keyword research aligned to local search intent (gyms, martial arts, events in the target market).\nStructured page metadata, heading hierarchy, and internal linking to improve crawlability and topical authority.\nMonitored organic impressions and click-through rates in Google Search Console to refine on-page optimizations.\n\n\n\n\n\n\n\nNote\n\n\n\nAll client metrics and conversion figures are confidential. The analytical approach and pipeline structure are described without proprietary data.\n\n\nSee the GA4 → BigQuery → DuckDB data pipeline and conversion modeling behind this engagement →"
+  },
+  {
+    "objectID": "digital-marketing.html#seo-competitive-analysis-trauma-resource-institute",
+    "href": "digital-marketing.html#seo-competitive-analysis-trauma-resource-institute",
+    "title": "Digital Marketing",
+    "section": "SEO Competitive Analysis — Trauma Resource Institute",
+    "text": "SEO Competitive Analysis — Trauma Resource Institute\nI conducted a comprehensive SEO audit for the Trauma Resource Institute (TRI) and benchmarked their performance against key industry competitors.\n\nApproach\n\nWeb scraping — collected on-page SEO signals (title tags, meta descriptions, heading structure, page speed proxies, and content length) across TRI and competitor domains.\nKeyword research — mapped the competitive keyword landscape for trauma-informed therapy and practitioner training.\nGap analysis — identified content gaps and structural weaknesses relative to competitors ranking for high-intent queries.\n\n\n\nDeliverable\nAn interactive HTML report built in R with Quarto, featuring:\n\nSide-by-side competitor comparison tables\nKeyword opportunity visualizations\nPrioritized, actionable recommendations for improving TRI’s organic search presence"
+  },
+  {
+    "objectID": "digital-marketing.html#enterprise-content-management-cascade-cms-automation",
+    "href": "digital-marketing.html#enterprise-content-management-cascade-cms-automation",
+    "title": "Digital Marketing",
+    "section": "Enterprise Content Management — Cascade CMS Automation",
+    "text": "Enterprise Content Management — Cascade CMS Automation\nAs part of a web operations engagement, I built a Python-based automation layer on top of the Cascade CMS REST API to transform manual content auditing and bulk publishing into scripted, repeatable processes.\n\nWhat Was Built\n\nIntelligent API Crawler (discovery.py) — a queue-based crawler that traverses complex folder hierarchies, extracts comprehensive asset metadata, and writes structured CSV inventory reports. Rate-limiting prevents server overload during large-scale crawls.\nHeadless CLI for AI & Automation (ai_client.py) — a machine-to-machine client designed for automated pipelines and AI-agent consumption. Outputs clean JSON to stdout (parseable by downstream systems) while directing all progress logs to stderr. Handles recursive traversal of deeply nested structuredDataNodes, programmatic workflow resolution, and batch metadata edits across entire sites.\n\n\n\nDigital Marketing Impact\n\nTurned multi-hour manual content audits into seconds of script execution.\nEnabled AI models and automated scripts to read, modify, and publish CMS content without human intervention — a foundation for scalable content operations.\nDelivered a reusable internal tool that reduced operational overhead for ongoing digital content management."
+  },
+  {
+    "objectID": "digital-marketing.html#email-marketing-hubspot-analytics",
+    "href": "digital-marketing.html#email-marketing-hubspot-analytics",
+    "title": "Digital Marketing",
+    "section": "Email Marketing & HubSpot Analytics",
+    "text": "Email Marketing & HubSpot Analytics\nThrough my work at Cal Poly Pomona’s Center for Customer Insights and Digital Marketing (CCIDM), I developed and delivered a workshop on email marketing workflows and HubSpot analytics — one of the 13 workshops in the CCIDM series.\nThe workshop covered:\n\nBuilding and segmenting email lists for targeted campaigns\nDesigning workflows for lead nurturing and re-engagement\nInterpreting HubSpot analytics: open rates, click-through rates, bounce rates, and list health\nConnecting email performance to broader funnel goals\n\nIn my role as Web Design and Media Analytics Team Lead at CCIDM, I also implemented HubSpot tracking across the organization’s website, establishing individual page-level and site-wide KPIs and creating the reporting infrastructure for ongoing performance measurement."
+  },
+  {
+    "objectID": "digital-marketing.html#digital-archiving-web-development-the-chubb-archive",
+    "href": "digital-marketing.html#digital-archiving-web-development-the-chubb-archive",
+    "title": "Digital Marketing",
+    "section": "Digital Archiving & Web Development — The Chubb Archive",
+    "text": "Digital Archiving & Web Development — The Chubb Archive\nI created thechubbarchive.com as a personal project: a digital hub for preserving and sharing digitized family films hosted on YouTube. While small in scope, it demonstrates the full web development and analytics cycle — from content strategy and site architecture to Google Analytics integration for tracking engagement across geographically distributed users.\nSkills demonstrated: responsive web development, digital content curation, YouTube channel management, Google Analytics implementation, audience-focused design."
+  },
+  {
+    "objectID": "digital-marketing.html#cba-innovation-symposium-ai-growth-lab",
+    "href": "digital-marketing.html#cba-innovation-symposium-ai-growth-lab",
+    "title": "Digital Marketing",
+    "section": "CBA Innovation Symposium — AI Growth Lab",
+    "text": "CBA Innovation Symposium — AI Growth Lab\nPresented at the Cal Poly Pomona CBA Innovation Symposium, this deck explores how AI tools are reshaping growth strategies across the digital marketing funnel — from content production and audience targeting to conversion optimization and analytics automation.\nUse the arrows or keyboard to navigate. Press F for full-screen."
   },
   {
     "objectID": "index.html#what-i-do",
     "href": "index.html#what-i-do",
-    "title": "Hi, I’m Jarrod Griffin",
+    "title": "Jarrod Griffin",
     "section": "What I Do",
-    "text": "What I Do\n\nData Analysis & Visualization: Creating interactive and informative visualizations using R and Python.\nDigital Marketing Strategies: Leveraging web analytics, SEO, and targeted campaigns to boost online presence.\nWorkshops & Training: Delivering engaging, hands-on workshops that empower students and professionals to harness the power of data.\nReproducible Reporting: Building seamlessly integrated documents and reports using Quarto."
+    "text": "What I Do\n\n\n\nFor Organizations\n\nData pipeline architecture — connecting your marketing stack (GA4, GTM, CRMs) to scalable, queryable infrastructure\nAnalytics implementation — tracking setup, attribution modeling, and conversion analysis\nCustom reporting — dashboards and reproducible reports built around your KPIs\nTeam training — hands-on analytics workshops for marketing and data teams\n\nView Services →\n\n\n\n\n\nFor Academic Roles\n\nCourses in marketing analytics, data visualization, and R/Python\nCurriculum grounded in real industry tools and workflows\nWorkshop series with 17,500+ YouTube views and adopted as a graduate-level prerequisite\nR workshop curriculum adopted as a graduate-level prerequisite at Cal Poly Pomona\n\nView Teaching →"
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Jarrod Griffin",
+    "section": "About",
+    "text": "About\nI’m completing my M.S. in Digital Marketing at Cal Poly Pomona (May 2026), where I was named CBA Student of the Year 2026. Before graduate school, I spent three years as an Associate Analyst at Robert D. Niehaus, Inc., building and maintaining R-based data pipelines for housing market analysis across 300+ U.S. military installations.\nMy technical foundation spans R, Python, SQL, and the full modern marketing analytics stack — GTM, GA4, BigQuery, Shiny, and Quarto. I’ve used these tools to build client-facing pipelines, geospatial market analysis applications, and reproducible research curricula.\nI founded OptiMark, a university-recognized student organization at Cal Poly Pomona dedicated to digital marketing education and professional development, and I’m actively seeking opportunities to teach, consult, and collaborate at the intersection of data and marketing."
+  },
+  {
+    "objectID": "index.html#selected-work",
+    "href": "index.html#selected-work",
+    "title": "Jarrod Griffin",
+    "section": "Selected Work",
+    "text": "Selected Work\n\n\nRising Stars Muay Thai\nBuilt a full analytics stack from scratch — GTM, GA4, a BigQuery data pipeline, and logistic regression for conversion modeling. Grew the site to 3,500 unique visitors in two months.\nView project →\n\n\n\nR & Quarto Workshop Series\nDesigned and delivered 13 workshops at Cal Poly Pomona. The series amassed 17,500+ YouTube views and was adopted as a prerequisite for a graduate-level course.\nView teaching →\n\n\n\nAirport Parking Analytics — ONT\nMulti-year operational time-series analysis for Ontario International Airport, presented at the CEO Business Challenge. Interactive visualizations built in R under strict data governance requirements.\nView project →"
+  },
+  {
+    "objectID": "index.html#recognition",
+    "href": "index.html#recognition",
+    "title": "Jarrod Griffin",
+    "section": "Recognition",
+    "text": "Recognition\n\nSingelyn Graduate School of Business MSDM Student of the Year — College of Business Administration, Cal Poly Pomona\nCBA Innovation Symposium — Presented AI Growth Lab, exploring AI-driven growth strategies in digital marketing\nFounded OptiMark — Officially university-recognized student organization at Cal Poly Pomona"
   },
   {
     "objectID": "index.html#lets-connect",
     "href": "index.html#lets-connect",
-    "title": "Hi, I’m Jarrod Griffin",
+    "title": "Jarrod Griffin",
     "section": "Let’s Connect",
-    "text": "Let’s Connect\nI’m always looking to collaborate and share ideas. Feel free to contact me or connect on LinkedIn.\n\nWelcome to my portfolio—where data meets creativity and reproducibility drives innovation."
+    "text": "Let’s Connect\nWhether you’re looking for an analytics collaborator, a consultant to build your marketing data infrastructure, or a potential lecturer — I’d love to hear from you.\njarrod@jarrodgriffin.com  ·  LinkedIn"
   },
   {
-    "objectID": "resume/Jarrod_Griffin-Resume.html",
-    "href": "resume/Jarrod_Griffin-Resume.html",
-    "title": "Professional Summary",
+    "objectID": "workshops.html",
+    "href": "workshops.html",
+    "title": "Workshops",
     "section": "",
-    "text": "Professional Summary\nAnalytical and results-driven professional with expertise in digital marketing, data analysis, and research. Proficient in R, Python, SPSS, and web analytics. Adept at transforming raw data into actionable insights, streamlining processes, and communicating findings to diverse stakeholders.\n\n\nTechnical Skills\n\nProgramming Languages: R, Python, SQL\n\nWeb Technologies: HTML, SCSS, Quarto, Hubspot, Google Analytics, CMS Platforms\n\n\n\nEducation\n\n\n# A tibble: 2 × 5\n  what                                              when       with  where why  \n  &lt;chr&gt;                                             &lt;chr&gt;      &lt;chr&gt; &lt;chr&gt; &lt;lis&gt;\n1 Master of Science, Digital Marketing              2024 - Ex… Sing… Cal … &lt;chr&gt;\n2 Bachelor of Science, Computer Information Systems 2018 - 20… Coll… Cal … &lt;chr&gt;\n\n\n\n\nWork Experience\n\n\n# A tibble: 2 × 5\n  what                                     when               with  where why   \n  &lt;chr&gt;                                    &lt;chr&gt;              &lt;chr&gt; &lt;chr&gt; &lt;list&gt;\n1 Associate Analyst                        Mar. 2021 – Sept.… Robe… &lt;NA&gt;  &lt;list&gt;\n2 Web Design and Media Analytics Team Lead Aug. 2020 – Jan. … Cent… &lt;NA&gt;  &lt;list&gt;"
+    "text": "Below are the workshops I have delivered throughout my time at Cal Poly Pomona’s Center for Customer Insights and Digital Marketing, along with an overview of the topics covered, the learning outcomes, and the key skills I gained from each session. The R Workshop Series was expanded upon and used as a prerequisite for a Masters program.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmail Marketing Workflow & HubSpot Analytics\n\n\n\nHubSpot\n\nEmail Marketing\n\nAnalytics\n\nCRM\n\nAutomation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuild a Free Professional Portfolio Website with Quarto\n\n\n\nQuarto\n\nPortfolio\n\nWeb Design\n\nGitHub Pages\n\nResume\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStunning & Effective Quarto Slides with Reveal.js\n\n\n\nQuarto\n\nReveal.js\n\nPresentations\n\nData Storytelling\n\nSCSS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn-depth Interactive Report Authoring with Quarto\n\n\n\nQuarto\n\nReporting\n\nHTML\n\nReproducible Research\n\nAutomation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to Quarto’s Capabilities for Work and School\n\n\n\nQuarto\n\nRStudio\n\nLiterate Programming\n\nProductivity\n\nPublishing\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreate Interactive Apps with Shiny in R\n\n\n\nShiny\n\nR Programming\n\nData Visualization\n\nWeb Applications\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nText Mining in R\n\n\n\nText Mining\n\nR Programming\n\nData Analysis\n\nSocial Media Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR Workshop Series #6: Data Visualization with R\n\n\n\nData Visualization\n\nR Programming\n\nggplot2\n\nLattice\n\nData Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR Workshop Series #5: R Programming\n\n\n\nR Programming\n\nCoding\n\nData Analysis\n\nSoftware Development\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR Workshop Series #4: Data Manipulation with Tidyverse\n\n\n\nData Manipulation\n\nTidyverse\n\nR Programming\n\nData Wrangling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR Workshop Series #3: Data Input and Output\n\n\n\nData Import and Export\n\nFile Handling\n\nWeb Scraping\n\nGit and GitHub\n\nData Input/Output\n\nCSV/XLSX/SPSS\n\nrvest\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR Workshop Series #2: R Data Types\n\n\n\nR Programming\n\nData Types in R\n\nData Structures\n\nData Manipulation\n\nData Frames\n\nBeginner Tutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR Workshop Series #1: Introduction to R\n\n\n\nR Programming\n\nRStudio\n\nBeginner Tutorials\n\nSoftware Installation and Setup\n\nDocumentation and Reporting\n\nLearning Resources\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Résumé",
-    "section": "",
-    "text": "You can view my a pdf version of my résumé here.\n\nProfessional Summary\nAnalytical and results-driven professional with expertise in digital marketing, data analysis, and research. Proficient in R, Python, SPSS, and web analytics. Adept at transforming raw data into actionable insights, streamlining processes, and communicating findings to diverse stakeholders.\n\n\nTechnical Skills\n\nProgramming Languages: R, Python, SQL\n\nWeb Technologies: HTML, SCSS, Quarto, Hubspot, Google Analytics, CMS Platforms\n\n\n\nEducation\n\n\n\n\n\n\n\n\n\nDegree\nYear\nCollege\nInstitution\n\n\n\n\nMaster of Science, Digital Marketing\n2024 - Expected Graduation May 2026\nSingelyn Graduate School of Business\nCal Poly Pomona\n\n\nBachelor of Science, Computer Information Systems\n2018 - 2020\nCollege of Business Administration\nCal Poly Pomona\n\n\n\n\n\nWork Experience\n\nAssociate Analyst, Robert D. Niehaus, Inc. \nMar. 2021 – Sept. 2024\n\nCollected and analyzed data for military installations across the U.S. as part of the Housing Market Analysis (HMA) team.\nCompiled and analyzed rental and utility data for 300 military housing areas for the Basic Allowance for Housing (BAH) program.\nSupported Tenant Satisfaction Surveys and Military Personnel Housing Surveys to assess housing quality and satisfaction.\nDeveloped and maintained R scripts to improve the efficiency and safety of data collection and analysis processes.\nRefactored Python scripts into R, ensuring seamless integration with existing R-based analytics workflows.\nInteracted with clients to ensure data and analysis met their specific needs and expectations.\n\n\n\nWeb Design and Media Analytics Team Lead, Center for Customer Insights and Digital Marketing\nAug. 2020 – Jan. 2021\n\nLed a website navigation redesign effort.\nTrained and mentored team members on web design, HTML/CSS, and the university’s CMS.\nIntroduced individual webpage and overall website tracking on the organization’s website using Hubspot.\nCreated and led a six-part workshop series demonstrating R programming, data wrangling, and data visualization to over 100 professionals, professors, and students.\nRecorded virtual R tutorials for use in graduate-level coursework.\nProposed and implemented new additions and revisions for the organization’s website.\nDetermined KPIs and assessed goal achievement."
+    "objectID": "admin-assignments/submission-checklist.html#deliverables-to-submit",
+    "href": "admin-assignments/submission-checklist.html#deliverables-to-submit",
+    "title": "Term Website Project — Submission Checklist",
+    "section": "Deliverables to Submit",
+    "text": "Deliverables to Submit\n\nTo Gradebook\n\nWebsite URL: https://www.jarrodgriffin.com\nGitHub repo URL: https://github.com/jsgriffin96/personal_website_quarto\n\n\n\nTo Discussion Board\n\nVideo recording (~4 minutes)"
+  },
+  {
+    "objectID": "admin-assignments/submission-checklist.html#video-recording-script-4-min",
+    "href": "admin-assignments/submission-checklist.html#video-recording-script-4-min",
+    "title": "Term Website Project — Submission Checklist",
+    "section": "Video Recording Script (~4 min)",
+    "text": "Video Recording Script (~4 min)\n\n1. Website Overview (1 min)\n\nIntended audience: Marketing managers, agency directors, and academic search committees looking for a practitioner who bridges data engineering and digital marketing.\nStructure: Home → Digital Marketing → Marketing Analytics → Teaching → Services → AI Growth Lab (RevealJS) → Résumé\nDesign philosophy: Clean, professional, content-led. Flatly theme with custom SCSS. Emphasis on real project outcomes over decoration.\nBrief tour: Briefly show the home page, then navigate through the nav.\n\n\n\n2. Website Traffic Analytics Page (1.5 min) — Workshop Analytics\n\nGo to Teaching → Workshop Analytics\nShow the Shiny interactive app: YouTube views and watch hours across 13 workshops\nDemonstrate filtering by series (R Series, Quarto Series, Standalone)\nClick a bar to show the workshop preview card and YouTube link\nHighlight the stat boxes: 16,984 total views, 1,891 watch hours\n\n\n\n3. RevealJS Presentation Page (1.5 min) — AI Growth Lab\n\nNavigate to the “AI Growth Lab” tab\nOpen the embedded RevealJS deck\nShow how slides are styled: custom theme, typography, layout\nNavigate through a few slides to show content depth\nMention it was built with Quarto RevealJS (programmatic slide authoring)\nPress F for full-screen to demonstrate"
+  },
+  {
+    "objectID": "admin-assignments/submission-checklist.html#structure-compliance",
+    "href": "admin-assignments/submission-checklist.html#structure-compliance",
+    "title": "Term Website Project — Submission Checklist",
+    "section": "Structure Compliance",
+    "text": "Structure Compliance\n\n\n\n\n\n\n\n\nRequired Tab\nStatus\nPage\n\n\n\n\nHome Page\n✅\nindex.qmd\n\n\nDigital Marketing\n✅\ndigital-marketing.qmd\n\n\nMarketing Analytics\n✅\nmarketing-analytics.qmd\n\n\nResume\n✅\nresume.qmd\n\n\nRevealJS Presentation\n✅\npresentation.qmd (AI Growth Lab)\n\n\nWebsite Traffic Analytics\n✅\nworkshop-analytics.qmd (under Teaching)\n\n\nOptional tabs\n✅\nTeaching, Services"
+  },
+  {
+    "objectID": "admin-assignments/submission-checklist.html#rubric-self-assessment",
+    "href": "admin-assignments/submission-checklist.html#rubric-self-assessment",
+    "title": "Term Website Project — Submission Checklist",
+    "section": "Rubric Self-Assessment",
+    "text": "Rubric Self-Assessment\n\n\n\n\n\n\n\nCriterion\nNotes\n\n\n\n\nLooks professional\nConsistent theme, color palette, typography\n\n\nTarget audience clear\nStated on Digital Marketing + Marketing Analytics pages\n\n\nContent/style guidelines met\nAll 6 required tabs present\n\n\nHome page adequate\nPhoto, education, skills, career objectives, recognition\n\n\nDigital Marketing content\n5 projects: Rising Stars, TRI SEO, Cascade CMS, Email/HubSpot, Chubb Archive\n\n\nMarketing Analytics content\n4 projects: BigQuery pipeline, ONT airport, Shiny/GPS app, team dashboard\n\n\nPresentation tab showcases technical prowess\nRevealJS built with Quarto, custom theme\n\n\nHighlights strengths\nData engineering + marketing analytics + teaching trifecta\n\n\nEasy to navigate\nClear navbar, dropdown for Teaching\n\n\nSEO ready\nopen-graph, twitter-card, site-url, page descriptions on all pages"
+  },
+  {
+    "objectID": "admin-assignments/submission-checklist.html#pre-submission-checklist",
+    "href": "admin-assignments/submission-checklist.html#pre-submission-checklist",
+    "title": "Term Website Project — Submission Checklist",
+    "section": "Pre-Submission Checklist",
+    "text": "Pre-Submission Checklist\n\nRebuild site: quarto render\nPush to GitHub\nVerify live site loads at https://www.jarrodgriffin.com\nTest RevealJS tab (presentation.qmd) renders and iframe loads\nTest Workshop Analytics Shiny app loads\nCheck GTM/GA4 tag is active (uncomment google-analytics in _quarto.yml if needed)\nRecord 4-minute video using the script above\nUpload video to Discussion Board\nSubmit website URL + GitHub URL to Gradebook"
+  },
+  {
+    "objectID": "services.html#what-i-offer",
+    "href": "services.html#what-i-offer",
+    "title": "Services",
+    "section": "What I Offer",
+    "text": "What I Offer\nI help marketing teams and organizations build the data infrastructure they need to move from raw event data to reliable, actionable intelligence. My work spans pipeline architecture, analytics implementation, and hands-on team training."
+  },
+  {
+    "objectID": "services.html#service-areas",
+    "href": "services.html#service-areas",
+    "title": "Services",
+    "section": "Service Areas",
+    "text": "Service Areas\n\nData Pipeline Architecture\nMost marketing analytics problems are actually data infrastructure problems. I design and build pipelines that collect, transform, and deliver clean, reliable data to the tools your team already uses.\n\nStack: Google Tag Manager, GA4, BigQuery, R, Python, SQL, Quarto\nExamples: GA4 → BigQuery export pipelines, event schema design, data transformation and modeling, scheduled reporting automation\nSuitable for: startups, agencies, and marketing departments that have outgrown spreadsheets\n\n\n\n\nAnalytics Implementation\nAccurate measurement is the foundation of good marketing decisions. I set up and audit tracking implementations so you’re confident in the numbers before building strategy on top of them.\n\nGTM container audits and rebuilds\nGA4 event taxonomy and conversion tracking\nAttribution modeling and multi-touch analysis\nCustom dimension and metric design\n\n\n\n\nMarketing Data Analysis & Reporting\nOnce your data is clean and flowing, I help you understand what it’s saying — and communicate that clearly to stakeholders.\n\nExploratory analysis and cohort studies\nSEO and competitor benchmarking\nCustomer journey and funnel analysis\nInteractive dashboards and reproducible reports (R, Quarto, Shiny)\n\n\n\n\nAnalytics Training for Teams\nI translate technical concepts into practical skills for marketing and analytics teams. Sessions are hands-on, tool-specific, and built around your actual data.\n\nCustom R or Python workshops\nGA4 and GTM for marketing teams\nData storytelling and dashboard design\nCan be delivered in-person or virtually"
+  },
+  {
+    "objectID": "services.html#who-i-work-with",
+    "href": "services.html#who-i-work-with",
+    "title": "Services",
+    "section": "Who I Work With",
+    "text": "Who I Work With\n\nDigital marketing agencies managing multi-client analytics\nE-commerce and service businesses building their first real data stack\nMarketing teams with data but no clear path to insight\nOrganizations preparing for a GA4 migration or BigQuery adoption"
+  },
+  {
+    "objectID": "services.html#how-it-works",
+    "href": "services.html#how-it-works",
+    "title": "Services",
+    "section": "How It Works",
+    "text": "How It Works\n\nDiscovery call — We talk through your current setup, your goals, and where the gaps are.\nProposal — I scope the work and outline a clear deliverable set with timeline.\nDelivery — I build, document, and walk you through everything so your team can own it going forward.\nFollow-up — Optional ongoing support, training, or iteration."
+  },
+  {
+    "objectID": "services.html#selected-project-work",
+    "href": "services.html#selected-project-work",
+    "title": "Services",
+    "section": "Selected Project Work",
+    "text": "Selected Project Work\n\n\nRising Stars Muay Thai — Full Analytics Stack\nBuilt GTM, GA4, and a BigQuery data pipeline from scratch. Added logistic regression modeling for conversion prediction. Grew site to 3,500 unique visitors within two months of launch.\nView full case study →\n\n\n\nAirport Parking Analytics — ONT\nTime-series analysis of multi-year operational data for Ontario International Airport. Interactive visualizations and data governance documentation under NDA.\nView full case study →"
+  },
+  {
+    "objectID": "services.html#lets-talk",
+    "href": "services.html#lets-talk",
+    "title": "Services",
+    "section": "Let’s Talk",
+    "text": "Let’s Talk\nIf you’re interested in working together, reach out directly:\njarrod@jarrodgriffin.com\nConnect on LinkedIn"
   },
   {
     "objectID": "workshops/09-Intro-to-Quarto.html",
@@ -70,6 +203,41 @@
     "text": "Overview\nThis hands-on session explores Quarto’s powerful HTML-authoring capabilities. Faculty experts and MSDM students guide participants through advanced formatting options, code-block controls, interactive features, and custom styling, establishing a single, maintainable pipeline from analysis to publication.\n\n\n\n\nLearning Outcomes\n\nConvert existing plain class project reports to dynamic HTML reports using Quarto.\nFormat documents with common tasks (toc-location, cross-referencing, citations).\nControl code block behavior (hiding/folding code, handling overflow).\nFamiliarize with common themes for HTML documents.\nStyle HTML documents with SCSS.\n\n\n\n\nKey Skills Gained\n\nDynamic Report Generation\nAdvanced Formatting & Citations\nCode Block Management\nHTML Theming & Styling\nReproducible Workflows"
   },
   {
+    "objectID": "workshops/11-Quarto-Slides-with-Revealjs.html",
+    "href": "workshops/11-Quarto-Slides-with-Revealjs.html",
+    "title": "Stunning & Effective Quarto Slides with Reveal.js",
+    "section": "",
+    "text": "Overview\nThis session demonstrates how to transform plain slide decks into stunning, interactive Reveal.js presentations. Coverage includes conversion to formats like PPTX, incremental lists, speaker notes, visibility control, and engagement features such as navigation menus, overview mode, slide zoom, chalkboard, and multiplex. The workshop also addresses theming through built-in styles, SCSS variable customization, and brand-consistent design creation.\n\n\n\n\nLearning Outcomes\n\nConvert Reveal.js presentation slides to other presentation formats.\nBuild dynamic and interactive presentations (incremental lists, speaker notes, etc.).\nMaximize audience engagement using Quarto features (navigation menu, overview mode).\nEnhance presentation aesthetics by applying themes and animations.\nCustomize themes using Sass variables for brand consistency.\n\n\n\n\nKey Skills Gained\n\nReveal.js Presentation Design\nInteractive Slide Features\nAdvanced Theming & SCSS\nPresentation Conversion\nAudience Engagement Tools"
+  },
+  {
+    "objectID": "teaching.html#teaching-philosophy",
+    "href": "teaching.html#teaching-philosophy",
+    "title": "Teaching",
+    "section": "Teaching Philosophy",
+    "text": "Teaching Philosophy\nMy teaching philosophy in digital marketing is grounded in the conviction that education must be an active process of learning and becoming by doing — empowering students as emerging professionals rather than passive listeners.\nThis foundation draws on established learning theory: Vygotsky’s social constructivism frames the classroom as a collaborative community; Gardner’s multiple intelligences honors the diverse ways students understand and process information; and adult motivational theory demonstrates that learners thrive when given autonomy and real-world relevance.\nThese theories drive my instructional approach. I prioritize project-based learning and authentic assessment over traditional standardized exams. Students tackle hands-on, industry-aligned tasks — developing data-driven marketing campaigns, building analytics dashboards, or consulting for live clients — so they leave with tangible skills and professional portfolios that translate directly to their careers."
+  },
+  {
+    "objectID": "teaching.html#g-tap",
+    "href": "teaching.html#g-tap",
+    "title": "Teaching",
+    "section": "G-TAP",
+    "text": "G-TAP\nI completed Cal Poly Pomona’s Graduate Teaching Assistant Program (G-TAP), a structured pedagogical training program led by Dr. Ruth Ahn. The program covered evidence-based instructional design, student-centered teaching, and equitable classroom practices.\nA key experience was our teaching demonstration, developed collaboratively with fellow graduate students, where I deepened my understanding of the deliberate planning required to build inclusive learning environments — anticipating how students from diverse backgrounds interpret questions, and designing lessons that adapt to them rather than requiring students to conform to a rigid plan.\nG-TAP helped me translate personal teaching instincts into formalized, research-backed pedagogy. Understanding the science of how people learn has strengthened both my teaching practice and my own metacognition as a graduate student.\n\n\n\nG-TAP Certificate of Completion — Spring 2026"
+  },
+  {
+    "objectID": "teaching.html#at-a-glance",
+    "href": "teaching.html#at-a-glance",
+    "title": "Teaching",
+    "section": "At a Glance",
+    "text": "At a Glance\n\n\n\n\n\n\n0\n\nWorkshops designed and delivered\n\n\n\n\n0\n\nYouTube views across workshop recordings\n\n\n\n\n0\n\nHours of workshop content watched"
+  },
+  {
+    "objectID": "teaching.html#workshop-curriculum",
+    "href": "teaching.html#workshop-curriculum",
+    "title": "Teaching",
+    "section": "Workshop Curriculum",
+    "text": "Workshop Curriculum\nThe workshops below were developed and delivered through Cal Poly Pomona’s Center for Customer Insights and Digital Marketing. Each module includes learning outcomes, key skills, and a recorded session. Many have been used in Master level curriculum.\n\n\n\n\n\n\n\n\n\n\nEmail Marketing Workflow & HubSpot Analytics\n\n\n\nHubSpot\n\nEmail Marketing\n\nAnalytics\n\nCRM\n\nAutomation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuild a Free Professional Portfolio Website with Quarto\n\n\n\nQuarto\n\nPortfolio\n\nWeb Design\n\nGitHub Pages\n\nResume\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStunning & Effective Quarto Slides with Reveal.js\n\n\n\nQuarto\n\nReveal.js\n\nPresentations\n\nData Storytelling\n\nSCSS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn-depth Interactive Report Authoring with Quarto\n\n\n\nQuarto\n\nReporting\n\nHTML\n\nReproducible Research\n\nAutomation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to Quarto’s Capabilities for Work and School\n\n\n\nQuarto\n\nRStudio\n\nLiterate Programming\n\nProductivity\n\nPublishing\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreate Interactive Apps with Shiny in R\n\n\n\nShiny\n\nR Programming\n\nData Visualization\n\nWeb Applications\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nText Mining in R\n\n\n\nText Mining\n\nR Programming\n\nData Analysis\n\nSocial Media Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR Workshop Series #6: Data Visualization with R\n\n\n\nData Visualization\n\nR Programming\n\nggplot2\n\nLattice\n\nData Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR Workshop Series #5: R Programming\n\n\n\nR Programming\n\nCoding\n\nData Analysis\n\nSoftware Development\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR Workshop Series #4: Data Manipulation with Tidyverse\n\n\n\nData Manipulation\n\nTidyverse\n\nR Programming\n\nData Wrangling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR Workshop Series #3: Data Input and Output\n\n\n\nData Import and Export\n\nFile Handling\n\nWeb Scraping\n\nGit and GitHub\n\nData Input/Output\n\nCSV/XLSX/SPSS\n\nrvest\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR Workshop Series #2: R Data Types\n\n\n\nR Programming\n\nData Types in R\n\nData Structures\n\nData Manipulation\n\nData Frames\n\nBeginner Tutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR Workshop Series #1: Introduction to R\n\n\n\nR Programming\n\nRStudio\n\nBeginner Tutorials\n\nSoftware Installation and Setup\n\nDocumentation and Reporting\n\nLearning Resources\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "workshops/06-Data Visualization with R.html",
     "href": "workshops/06-Data Visualization with R.html",
     "title": "R Workshop Series #6: Data Visualization with R",
@@ -77,11 +245,11 @@
     "text": "Overview\nThis advanced workshop focused on creating publication-quality data visualizations using R. We explored various chart types—from simple graphs to sophisticated layered visuals—leveraging R’s built-in functions along with packages like ggplot2 and lattice. The session helped participants select the best visualization techniques for different data scenarios.\n\n\n\n\nLearning Outcomes\n\nIdentify and compare popular R visualization packages.\n\nUnderstand the grammar of graphics using ggplot2.\n\nCreate charts for univariate and bivariate data.\n\nLayer and customize visualizations to convey data insights effectively.\n\nFilter and manipulate data with tidyverse functions.\n\n\n\n\nKey Skills Gained\n\nAdvanced data visualization techniques\n\nMastery of ggplot2 and lattice\n\nLayered chart creation\n\nData manipulation with tidyverse\n\nVisual storytelling"
   },
   {
-    "objectID": "workshops/11-Quarto-Slides-with-Revealjs.html",
-    "href": "workshops/11-Quarto-Slides-with-Revealjs.html",
-    "title": "Stunning & Effective Quarto Slides with Reveal.js",
+    "objectID": "workshops/13-HubSpot-Email-Marketing.html",
+    "href": "workshops/13-HubSpot-Email-Marketing.html",
+    "title": "Email Marketing Workflow & HubSpot Analytics",
     "section": "",
-    "text": "Overview\nThis session demonstrates how to transform plain slide decks into stunning, interactive Reveal.js presentations. Coverage includes conversion to formats like PPTX, incremental lists, speaker notes, visibility control, and engagement features such as navigation menus, overview mode, slide zoom, chalkboard, and multiplex. The workshop also addresses theming through built-in styles, SCSS variable customization, and brand-consistent design creation.\n\n\n\n\nLearning Outcomes\n\nConvert Reveal.js presentation slides to other presentation formats.\nBuild dynamic and interactive presentations (incremental lists, speaker notes, etc.).\nMaximize audience engagement using Quarto features (navigation menu, overview mode).\nEnhance presentation aesthetics by applying themes and animations.\nCustomize themes using Sass variables for brand consistency.\n\n\n\n\nKey Skills Gained\n\nReveal.js Presentation Design\nInteractive Slide Features\nAdvanced Theming & SCSS\nPresentation Conversion\nAudience Engagement Tools"
+    "text": "Overview\nThis workshop guides participants through a complete email campaign lifecycle in HubSpot—from initial concept and stakeholder review through build, launch, and performance analysis. It also covers integrating Qualtrics forms for automated subscriber intake and interpreting modern email analytics metrics to evaluate campaign success.\n\n\n\n\nLearning Outcomes\n\nCollaborate to create publication-ready emails for audience segments.\nSend and interpret email campaigns via HubSpot CRM.\nTrigger automatic opt-in confirmations from contact forms.\nPreview and test email rendering across devices and email clients.\nEvaluate campaign success using relevant performance indicators.\n\n\n\n\nKey Skills Gained\n\nHubSpot Email Campaign Management\nQualtrics Form Integration & Automation\nEmail Deliverability & Bounce Analysis\nContact Management & Duplicate Prevention\nEngagement Metrics & Analytics Interpretation\n\n\n\n\nView Workshop Page"
   },
   {
     "objectID": "workshops/01-Introduction to R.html",
@@ -119,52 +287,66 @@
     "text": "Overview\nThis hands-on session focuses on planning and launching a professional portfolio website with Quarto—no prior coding required. Participants learn to organize résumé/CV content, projects, and publications into a cohesive site, apply custom styling with SCSS and themes, and publish work using GitHub Pages for a credible, public-facing presence.\n\n\n\n\nLearning Outcomes\n\nBuild a professional Quarto website to showcase portfolio, skills, and personal brand online.\nIntegrate existing Quarto projects into the website for cohesive presentation.\nCustomize website layout and appearance with SCSS and custom themes.\nDeploy the website online using GitHub Pages for easy accessibility.\nCreate a resume in R using the Vitae package.\n\n\n\n\nKey Skills Gained\n\nQuarto Website Construction\nPortfolio Management & Integration\nSCSS & Theme Customization\nGitHub Pages Deployment\nDynamic Resume Creation (Vitae)"
   },
   {
-    "objectID": "workshops.html",
-    "href": "workshops.html",
-    "title": "Workshops",
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Résumé",
     "section": "",
-    "text": "Below are the workshops I have delivered throughout my time at Cal Poly Pomona’s Center for Customer Insights and Digital Marketing, along with an overview of the topics covered, the learning outcomes, and the key skills I gained from each session. The R Workshop Series was expanded upon and used as a prerequisite for a Masters program.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuild a Free Professional Portfolio Website with Quarto\n\n\n\nQuarto\n\nPortfolio\n\nWeb Design\n\nGitHub Pages\n\nResume\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStunning & Effective Quarto Slides with Reveal.js\n\n\n\nQuarto\n\nReveal.js\n\nPresentations\n\nData Storytelling\n\nSCSS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn-depth Interactive Report Authoring with Quarto\n\n\n\nQuarto\n\nReporting\n\nHTML\n\nReproducible Research\n\nAutomation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to Quarto’s Capabilities for Work and School\n\n\n\nQuarto\n\nRStudio\n\nLiterate Programming\n\nProductivity\n\nPublishing\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreate Interactive Apps with Shiny in R\n\n\n\nShiny\n\nR Programming\n\nData Visualization\n\nWeb Applications\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nText Mining in R\n\n\n\nText Mining\n\nR Programming\n\nData Analysis\n\nSocial Media Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR Workshop Series #6: Data Visualization with R\n\n\n\nData Visualization\n\nR Programming\n\nggplot2\n\nLattice\n\nData Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR Workshop Series #5: R Programming\n\n\n\nR Programming\n\nCoding\n\nData Analysis\n\nSoftware Development\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR Workshop Series #4: Data Manipulation with Tidyverse\n\n\n\nData Manipulation\n\nTidyverse\n\nR Programming\n\nData Wrangling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR Workshop Series #3: Data Input and Output\n\n\n\nData Import and Export\n\nFile Handling\n\nWeb Scraping\n\nGit and GitHub\n\nData Input/Output\n\nCSV/XLSX/SPSS\n\nrvest\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR Workshop Series #2: R Data Types\n\n\n\nR Programming\n\nData Types in R\n\nData Structures\n\nData Manipulation\n\nData Frames\n\nBeginner Tutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR Workshop Series #1: Introduction to R\n\n\n\nR Programming\n\nRStudio\n\nBeginner Tutorials\n\nSoftware Installation and Setup\n\nDocumentation and Reporting\n\nLearning Resources\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "You can view my a pdf version of my résumé here.\n\nProfessional Summary\nAnalytical and results-driven professional with expertise in digital marketing, data analysis, and research. Proficient in R, Python, SPSS, and web analytics. Adept at transforming raw data into actionable insights, streamlining processes, and communicating findings to diverse stakeholders.\n\n\nTechnical Skills\n\nProgramming Languages: R, Python, SQL\n\nWeb Technologies: HTML, SCSS, Quarto, Hubspot, Google Analytics, CMS Platforms\n\n\n\nAwards & Recognition\n\n\n\n\n\n\n\n\nAward\nYear\nInstitution\n\n\n\n\nMDSM Student of the Year\n2026\nCollege of Business Administration, Cal Poly Pomona\n\n\n\n\n\nEducation\n\n\n\n\n\n\n\n\n\nDegree\nYear\nCollege\nInstitution\n\n\n\n\nMaster of Science, Digital Marketing\n2024 - Expected Graduation May 2026\nSingelyn Graduate School of Business\nCal Poly Pomona\n\n\nBachelor of Science, Computer Information Systems\n2018 - 2020\nCollege of Business Administration\nCal Poly Pomona\n\n\n\n\n\nLeadership\n\nFounder & President, OptiMark\n2026 – Present\n\nFounded OptiMark, an officially university-recognized student organization at Cal Poly Pomona focused on digital marketing education and professional development.\nBuilt and manage the organization’s web presence and brand identity.\n\n\n\n\nWork Experience\n\nAssociate Analyst, Robert D. Niehaus, Inc. \nMar. 2021 – Sept. 2024\n\nCollected and analyzed data for military installations across the U.S. as part of the Housing Market Analysis (HMA) team.\nCompiled and analyzed rental and utility data for 300 military housing areas for the Basic Allowance for Housing (BAH) program.\nSupported Tenant Satisfaction Surveys and Military Personnel Housing Surveys to assess housing quality and satisfaction.\nDeveloped and maintained R scripts to improve the efficiency and safety of data collection and analysis processes.\nRefactored Python scripts into R, ensuring seamless integration with existing R-based analytics workflows.\nInteracted with clients to ensure data and analysis met their specific needs and expectations.\n\n\n\nWeb Design and Media Analytics Team Lead, Center for Customer Insights and Digital Marketing\nAug. 2020 – Jan. 2021\n\nLed a website navigation redesign effort.\nTrained and mentored team members on web design, HTML/CSS, and the university’s CMS.\nIntroduced individual webpage and overall website tracking on the organization’s website using Hubspot.\nCreated and led a six-part workshop series demonstrating R programming, data wrangling, and data visualization to over 100 professionals, professors, and students.\nRecorded virtual R tutorials for use in graduate-level coursework.\nProposed and implemented new additions and revisions for the organization’s website.\nDetermined KPIs and assessed goal achievement."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Featured Projects",
+    "objectID": "admin-assignments/Instructions on Term Website Project-Markitdown.html",
+    "href": "admin-assignments/Instructions on Term Website Project-Markitdown.html",
+    "title": "Jarrod Griffin",
     "section": "",
-    "text": "Below are some key projects from my portfolio that showcase my work in digital innovation, data analytics, and interactive application development. Each project also highlights the skills I honed along the way."
+    "text": "Instructions on Term Project - Portfolio Website Construction\nTerm Project Final Deliverables and Presentation:\nOverview\nStudents submit a reproducible report (codebook and HTML report), prepare RevealJS slides, and make presentations as if they would do in front of the intended target audience at the end of the course in lieu of a final exam.\nStructure of the Website\n\nHome Page\nDigital Marketing\nMarketing Analytics\nResume\nRevealjs Presentation*(*The title of tab can be something more relevant to the topic of the presentation)\nWebsite Traffic Analytics* (You may have a drop-down menu with multiple pages that doesn’t fit into existing tabs well)\n(Optional) Other tabs of your choice\n\nSuggested Professional Portfolio Template.\n\nTemplate on GitHubLinks to an external site.:\nInstructions on Using the Template:  PP 27-41Links to an external site.\n\nWebsite Structure/Content Variations:\nDepending on your desired role in a digital marketing careerLinks to an external site., you can be more specific about your project along the typical digital marketing roles: (1) Content/Creative Roles (e.g., content writer, social media manager, graphic/visual designer), (2) Technical & Performance Roles(e.g., SEO Specialist, PPC Specialist, Email marketing Specialist), or (3) Marketing Data & Analytics Roles (e.g., Marketing Analyst, Marketing Data Scientist).\nPresentation Video Recording\nThe website is the material for your presentation. Record your presentation by covering the following talking points in about 4 minutes.\n\n\nWebsite in general (1 min)\n\nIntended audience specified\nStructure of Website\nDesign Philosophy\nBrief Tour\n\nWeb traffic analytics page (1.5 min)\nReveajs Presentation page (1.5 min)\n\nShow how you style the slides\n\n\n\nGrading Rubric\nThe grade will be based on the professionalism and the content of the website, including the following criteria:\n\n\nDoes the website look professional? Professionalism can manifest in all aspects of a website (e.g., color, narrative tone, appropriateness of content, etc.).\nIs it clear who the target audience is?\nHas the website met the provided content and style guidelines?\nDoes the home page have adequate information for the person’s profile that prospective employers would want to know? (Photo, education, skills, career objectives, highlighted achievements, etc.)\nDoes the Digital Marketing tab have enough interesting original content?\nDoes the Marketing Analytics tab have enough interesting original content?\nDoes the presentation tab showcase one’s technical prowess?\nDoes the website effectively highlight the person’s strengths?\nIs the website easy to navigate?\nIs the website ready for SEO?\n\n\nDeliverables\nSubmit the following deliverables by the due date.\n\nTo Gradebook:\n\nThe website URL,\nGitHub repo URL, and\n\nTo Discussion board:\n\nVideo recording of the presentation (~ 4 minutes)"
   },
   {
-    "objectID": "projects.html#future-proofing-airport-parking-at-ont",
-    "href": "projects.html#future-proofing-airport-parking-at-ont",
-    "title": "Featured Projects",
-    "section": "Future-Proofing Airport Parking at ONT",
-    "text": "Future-Proofing Airport Parking at ONT\nAs part of the Cal Poly Pomona CEO Business Challenge, I worked with multi-year operational data from Ontario International Airport (ONT) to explore how parking, passenger volumes, and ride-hailing activity interact over time in support of future-proof parking strategy and non-aeronautical revenue growth, while protecting all sensitive data. Using R and Quarto, I cleaned and integrated multiple datasets (parking revenue and transactions by lot, passenger counts by airline and direction, TNC trips, and lot occupancy), reshaped them into consistent monthly and weekly time series, engineered date features, standardized categories, and generated a non-sensitive schema describing table structures and missingness for safe internal sharing. I then built interactive visualizations—including stacked time-series charts, rank trajectories, inbound vs outbound flow views, TNC company-to-trip-type Sankey diagrams, and a weekly occupancy heatmap—to reveal how different parking products contribute to revenue, how usage shifts across lots, and how TNC activity compares to traditional parking, informing pricing, capacity, and product-mix decisions.\nSkills Developed:\n\nTime-Series EDA: Reshaping multi-year operational data into coherent monthly and weekly series for analysis.\nData Engineering in R: Using tidyverse, lubridate, and stringr for parsing dates, normalizing categories, and handling sparse/missing values.\nInteractive Visualization: Building plotly-based stacked areas, rank plots, heatmaps, and Sankey diagrams for stakeholder-friendly exploration.\nData Governance & NDA Safety: Generating schema and missingness profiles (YAML) to document data structure without exposing raw values or sensitive metrics.\n\n\n\n\n\n\n\nNote\n\n\n\n(All ONT data and exact figures are confidential; this description focuses on methods, structures, and skills rather than proprietary results.)"
+    "objectID": "resume/Jarrod_Griffin-Resume.html",
+    "href": "resume/Jarrod_Griffin-Resume.html",
+    "title": "Professional Summary",
+    "section": "",
+    "text": "Professional Summary\nAnalytical and results-driven professional with expertise in digital marketing, data analysis, and research. Proficient in R, Python, SPSS, and web analytics. Adept at transforming raw data into actionable insights, streamlining processes, and communicating findings to diverse stakeholders.\n\n\nTechnical Skills\n\nProgramming Languages: R, Python, SQL\n\nWeb Technologies: HTML, SCSS, Quarto, Hubspot, Google Analytics, CMS Platforms\n\n\n\nEducation\n\n\n# A tibble: 2 × 5\n  what                                              when       with  where why  \n  &lt;chr&gt;                                             &lt;chr&gt;      &lt;chr&gt; &lt;chr&gt; &lt;lis&gt;\n1 Master of Science, Digital Marketing              2024 - Ex… Sing… Cal … &lt;chr&gt;\n2 Bachelor of Science, Computer Information Systems 2018 - 20… Coll… Cal … &lt;chr&gt;\n\n\n\n\nWork Experience\n\n\n# A tibble: 2 × 5\n  what                                     when               with  where why   \n  &lt;chr&gt;                                    &lt;chr&gt;              &lt;chr&gt; &lt;chr&gt; &lt;list&gt;\n1 Associate Analyst                        Mar. 2021 – Sept.… Robe… &lt;NA&gt;  &lt;list&gt;\n2 Web Design and Media Analytics Team Lead Aug. 2020 – Jan. … Cent… &lt;NA&gt;  &lt;list&gt;"
   },
   {
-    "objectID": "projects.html#a-safer-way-to-collect-data-market-area-mapping",
-    "href": "projects.html#a-safer-way-to-collect-data-market-area-mapping",
-    "title": "Featured Projects",
-    "section": "A Safer Way to Collect Data: Market Area Mapping",
-    "text": "A Safer Way to Collect Data: Market Area Mapping\nIn my role as an Analyst, I was responsible for determining the “market area” of military installations—a process that previously involved manual note-taking at major intersections. To overcome the challenges of inaccuracy and safety risks, I developed a Shiny R application that integrates with the Strava API to automatically capture GPS data during field drives. Using the sf and leaflet packages, the app generates an interactive map of our routes, significantly enhancing both safety and data accuracy. Additionally, the HERE API is utilized to estimate market areas, adding an extra layer of verification.\nSkills Developed:\n\nAdvanced R Programming: Building interactive applications with Shiny.\nAPI Integration: Working with Strava and HERE APIs to automate data collection.\nGeospatial Analysis: Using sf and leaflet for mapping and spatial data visualization.\nProcess Optimization: Streamlining data collection methods for improved safety and efficiency."
+    "objectID": "marketing-analytics.html",
+    "href": "marketing-analytics.html",
+    "title": "Marketing Analytics",
+    "section": "",
+    "text": "This page showcases my marketing analytics and data engineering work — from building cloud-to-local pipelines on live campaign data, to statistical modeling of conversion drivers, to interactive operational analytics for stakeholder decision-making. My target audience is analytics managers, data-driven marketing teams, and academic search committees looking for someone who can own the full analytics stack."
   },
   {
-    "objectID": "projects.html#analyzing-seo-practices-tri-and-industry-competitors",
-    "href": "projects.html#analyzing-seo-practices-tri-and-industry-competitors",
-    "title": "Featured Projects",
-    "section": "Analyzing SEO Practices: TRI and Industry Competitors",
-    "text": "Analyzing SEO Practices: TRI and Industry Competitors\nIn this project, I conducted a comprehensive analysis of SEO practices for Trauma Resource Institute(TRI) and compared them with industry competitors. By combining web scraping, keyword research, and data visualization, I identified strengths and weaknesses in TRI’s online presence and developed actionable recommendations for improving digital strategy.\nSkills Developed:\n\nSEO Analysis: Evaluated and benchmarked SEO performance across multiple competitors.\nData Scraping & Cleaning: Wrote a script to collect and process data from various online sources.\nInteractive Reporting: Created an interactive HTML report to visualize comparative SEO metrics.\nStrategic Insights: Synthesized data into actionable recommendations for digital marketing initiatives.\n\nBelow is an embedded demonstration of the interactive report:"
+    "objectID": "marketing-analytics.html#rising-stars-pipeline",
+    "href": "marketing-analytics.html#rising-stars-pipeline",
+    "title": "Marketing Analytics",
+    "section": "GA4 → BigQuery → DuckDB Conversion Modeling Pipeline",
+    "text": "GA4 → BigQuery → DuckDB Conversion Modeling Pipeline\nThis covers the data engineering and modeling layer of the Rising Stars engagement. For the website build, GTM/GA4 implementation, and campaign analytics, see Digital Marketing → Rising Stars.\nFor the Rising Stars Muay Thai engagement, I designed and built a multi-stage data pipeline to process raw GA4 event exports at scale and power downstream predictive modeling.\n\nPipeline Architecture\nGA4 Raw Events\n    ↓\nBigQuery (Cloud Export)\n    ↓\nApache Arrow (In-Memory Transfer)\n    ↓\nDuckDB (Local Query Engine)\n    ↓\nSession-Level Aggregations → R Modeling Environment\n\nBigQuery export — automated extraction of raw GA4 event data (sessions, events, user properties, ecommerce) to cloud storage.\nGA4 Data API backfill — used the GA4 Data API to recover pre-BigQuery-export data, ensuring complete event-window coverage across both event cycles.\nApache Arrow transfer — zero-copy in-memory transport between cloud and local environments, eliminating intermediate CSV serialization.\nDuckDB local engine — SQL-based session-level aggregation, feature engineering (page depth, scroll events, device type, traffic medium), and query optimization for fast iteration during modeling.\n\n\n\nPredictive Modeling — Conversion Drivers\nBuilt three logistic regression models — ticket conversion, PPV conversion, and combined conversion — to quantify what independently predicts a purchase.\n\nFeatures: page depth, device category, traffic medium, pre/post-event timing, content engagement signals\nOutputs: odds ratios and average marginal effects for each predictor — giving stakeholders an interpretable answer to “what moves the needle?”\nValidation: compared in-sample fit against holdout periods to assess model stability across event cycles\n\n\n\n\n\n\n\nNote\n\n\n\nAll client metrics, session counts, and conversion figures are confidential. The pipeline architecture and modeling approach are described without proprietary data."
   },
   {
-    "objectID": "projects.html#motivation-through-a-dashboard",
-    "href": "projects.html#motivation-through-a-dashboard",
-    "title": "Featured Projects",
-    "section": "Motivation Through a Dashboard",
-    "text": "Motivation Through a Dashboard\nWhile managing a large, complex database of flagged data, I observed that the team’s motivation was waning due to the overwhelming volume and slow progress. To address this, I quickly created a simple yet effective dashboard that visualizes key metrics and tracks the team’s progress over time. The dashboard provided clear insights into accomplishments, significantly boosting team morale and focus on the end goal.\nSkills Developed:\n\nData Visualization: Designing dashboards that effectively communicate progress.\nUser Experience (UX): Crafting visual tools that motivate and engage team members.\nPerformance Metrics Analysis: Identifying and presenting key performance indicators.\nDashboard Development: Integrating dynamic data displays within existing applications."
+    "objectID": "marketing-analytics.html#ont-parking",
+    "href": "marketing-analytics.html#ont-parking",
+    "title": "Marketing Analytics",
+    "section": "Operations Analytics — Ontario International Airport Parking",
+    "text": "Operations Analytics — Ontario International Airport Parking\nAs part of the Cal Poly Pomona CEO Business Challenge, I conducted a multi-year operational time-series analysis for Ontario International Airport (ONT), exploring how parking revenue, passenger volumes, and ride-hailing (TNC) activity interact — with the goal of informing future-proof parking strategy and non-aeronautical revenue growth.\n\nData Engineering\nWorking under strict data governance requirements (NDA), I:\n\nIntegrated multiple datasets: parking revenue and transactions by lot, passenger counts by airline and direction, TNC trip volumes, and lot occupancy.\nReshaped disparate sources into consistent monthly and weekly time series with engineered date features.\nStandardized categories across inconsistent vendor naming conventions.\nGenerated a non-sensitive YAML schema describing table structures and missingness — enabling safe internal documentation without exposing raw values.\n\n\n\nInteractive Visualizations\nBuilt in R with Plotly and Quarto:\n\n\n\n\n\n\n\nVisualization\nPurpose\n\n\n\n\nStacked time-series (monthly revenue by lot)\nReveal product mix shifts over time\n\n\nRank trajectory chart\nTrack lot performance standings across periods\n\n\nInbound vs. outbound flow chart\nIdentify directional asymmetries in passenger volumes\n\n\nTNC Sankey diagram\nMap ride-hail company → trip type relationships\n\n\nWeekly occupancy heatmap\nExpose day-of-week and seasonal occupancy patterns\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nAll ONT data and figures are confidential; this describes methods and visualization types, not proprietary results."
   },
   {
-    "objectID": "projects.html#the-chubb-archive",
-    "href": "projects.html#the-chubb-archive",
-    "title": "Featured Projects",
-    "section": "The Chubb Archive",
-    "text": "The Chubb Archive\nI created thechubbarchive.com as a digital hub for preserving and sharing cherished family memories. This project curates a collection of old physical films that have been digitized and hosted on YouTube. The platform serves as an organized gateway to these films while integrating Google Analytics to track engagement from family members across various states.\nSkills Developed:\n\nWeb Development: Building a responsive website for digital archiving.\nDigital Curation: Organizing and presenting multimedia content.\nAnalytics Integration: Implementing Google Analytics to monitor user engagement.\nProject Management: Coordinating digitization and online publishing processes."
+    "objectID": "marketing-analytics.html#geospatial-analytics-market-area-mapping-with-shiny-apis",
+    "href": "marketing-analytics.html#geospatial-analytics-market-area-mapping-with-shiny-apis",
+    "title": "Marketing Analytics",
+    "section": "Geospatial Analytics — Market Area Mapping with Shiny & APIs",
+    "text": "Geospatial Analytics — Market Area Mapping with Shiny & APIs\nIn my role as an Associate Analyst at Robert D. Niehaus, Inc., I replaced a manual, safety-compromised field data collection process with a Shiny R application that automates GPS-based market area delineation for military installations.\n\nThe Problem\nDetermining housing “market areas” for 300+ U.S. military installations previously required analysts to manually note observations at major intersections — a slow, inaccurate, and unsafe process.\n\n\nThe Solution\n\nStrava API integration — the app captures GPS data passively during field drives, eliminating manual recording.\nsf + leaflet mapping — automatically generates an interactive map of the driven routes for immediate review and QA.\nHERE API integration — provides independent market area estimates as a verification layer against the GPS-driven boundaries.\nDeployed as a self-contained Shiny app used operationally across the Housing Market Analysis team.\n\nImpact: eliminated safety risks, improved spatial accuracy, and compressed the field data collection cycle for 300+ installation analyses."
+  },
+  {
+    "objectID": "marketing-analytics.html#team-performance-dashboard",
+    "href": "marketing-analytics.html#team-performance-dashboard",
+    "title": "Marketing Analytics",
+    "section": "Team Performance Dashboard",
+    "text": "Team Performance Dashboard\nWhile managing a large flagging and quality-control workflow at Robert D. Niehaus, I built a real-time progress dashboard in R to address declining team morale from an overwhelming, opaque workload.\nThe dashboard visualized:\n\nTotal flagged records resolved vs. remaining\nTeam throughput over time (daily and weekly trends)\nIndividual contribution breakdowns\n\nOutcome: within days of deployment, the team had clear visibility into their progress. Morale improved measurably, and throughput increased as the path to completion became concrete and visible. A small analytics intervention with a direct operational impact."
+  },
+  {
+    "objectID": "marketing-analytics.html#analytics-stack",
+    "href": "marketing-analytics.html#analytics-stack",
+    "title": "Marketing Analytics",
+    "section": "Analytics Stack",
+    "text": "Analytics Stack\n\n\n\nLayer\nTools\n\n\n\n\nTracking & Tag Management\nGoogle Tag Manager, GA4\n\n\nCloud Data\nBigQuery, GA4 Data API\n\n\nData Transport\nApache Arrow, Parquet\n\n\nLocal Query Engine\nDuckDB, SQL\n\n\nAnalysis & Modeling\nR (tidyverse, lubridate, broom), Python\n\n\nVisualization\nPlotly, ggplot2, leaflet, DT\n\n\nReporting\nQuarto (HTML, PDF, interactive)\n\n\nDashboards\nShiny"
   }
 ]

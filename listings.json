@@ -2,6 +2,25 @@
   {
     "listing": "/workshops.html",
     "items": [
+      "/workshops/13-HubSpot-Email-Marketing.html",
+      "/workshops/12-Portfolio-Website-with-Quarto.html",
+      "/workshops/11-Quarto-Slides-with-Revealjs.html",
+      "/workshops/10-Interactive-Report-Authoring.html",
+      "/workshops/09-Intro-to-Quarto.html",
+      "/workshops/08-Create Interactive Apps with Shiny in R.html",
+      "/workshops/07-Text Mining in R.html",
+      "/workshops/06-Data Visualization with R.html",
+      "/workshops/05-R Programming.html",
+      "/workshops/04-Data Manipulation with Tidyverse.html",
+      "/workshops/03-Data Input and Output.html",
+      "/workshops/02-R Data Types.html",
+      "/workshops/01-Introduction to R.html"
+    ]
+  },
+  {
+    "listing": "/teaching.html",
+    "items": [
+      "/workshops/13-HubSpot-Email-Marketing.html",
       "/workshops/12-Portfolio-Website-with-Quarto.html",
       "/workshops/11-Quarto-Slides-with-Revealjs.html",
       "/workshops/10-Interactive-Report-Authoring.html",

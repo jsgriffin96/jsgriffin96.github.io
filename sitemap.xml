@@ -1,71 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.jarrodgriffin.com/digital-marketing.html</loc>
+    <lastmod>2026-04-26T23:46:29.653Z</lastmod>
+  </url>
+  <url>
     <loc>https://www.jarrodgriffin.com/index.html</loc>
-    <lastmod>2025-03-18T18:33:34.568Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jarrodgriffin.com/resume/Jarrod_Griffin-Resume.html</loc>
-    <lastmod>2025-03-04T15:29:37.927Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jarrodgriffin.com/resume.html</loc>
-    <lastmod>2025-03-23T22:28:29.022Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jarrodgriffin.com/workshops/09-Intro-to-Quarto.html</loc>
-    <lastmod>2025-12-27T18:17:34.074Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jarrodgriffin.com/workshops/05-R Programming.html</loc>
-    <lastmod>2025-03-23T22:09:58.256Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jarrodgriffin.com/workshops/02-R Data Types.html</loc>
-    <lastmod>2025-03-23T22:10:23.654Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jarrodgriffin.com/workshops/03-Data Input and Output.html</loc>
-    <lastmod>2025-03-23T22:10:14.893Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jarrodgriffin.com/workshops/10-Interactive-Report-Authoring.html</loc>
-    <lastmod>2025-12-27T18:17:32.574Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jarrodgriffin.com/workshops/06-Data Visualization with R.html</loc>
-    <lastmod>2025-03-23T22:09:50.926Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jarrodgriffin.com/workshops/11-Quarto-Slides-with-Revealjs.html</loc>
-    <lastmod>2025-12-27T18:17:31.006Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jarrodgriffin.com/workshops/01-Introduction to R.html</loc>
-    <lastmod>2025-03-23T22:10:32.999Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jarrodgriffin.com/workshops/04-Data Manipulation with Tidyverse.html</loc>
-    <lastmod>2025-03-23T22:10:05.384Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jarrodgriffin.com/workshops/07-Text Mining in R.html</loc>
-    <lastmod>2025-03-23T22:09:12.249Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jarrodgriffin.com/workshops/08-Create Interactive Apps with Shiny in R.html</loc>
-    <lastmod>2025-03-23T22:09:19.935Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jarrodgriffin.com/workshops/12-Portfolio-Website-with-Quarto.html</loc>
-    <lastmod>2025-12-27T18:17:29.407Z</lastmod>
+    <lastmod>2026-04-26T23:46:42.510Z</lastmod>
   </url>
   <url>
     <loc>https://www.jarrodgriffin.com/workshops.html</loc>
-    <lastmod>2025-03-23T22:09:17.161Z</lastmod>
+    <lastmod>2026-04-24T18:44:42.365Z</lastmod>
   </url>
   <url>
-    <loc>https://www.jarrodgriffin.com/projects.html</loc>
-    <lastmod>2025-12-27T02:23:35.057Z</lastmod>
+    <loc>https://www.jarrodgriffin.com/admin-assignments/submission-checklist.html</loc>
+    <lastmod>2026-04-26T19:52:31.019Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jarrodgriffin.com/services.html</loc>
+    <lastmod>2026-04-26T23:46:48.543Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jarrodgriffin.com/workshops/09-Intro-to-Quarto.html</loc>
+    <lastmod>2026-04-24T18:44:42.366Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jarrodgriffin.com/workshops/05-R Programming.html</loc>
+    <lastmod>2026-04-24T18:44:42.366Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jarrodgriffin.com/workshops/02-R Data Types.html</loc>
+    <lastmod>2026-04-24T18:44:42.366Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jarrodgriffin.com/workshops/03-Data Input and Output.html</loc>
+    <lastmod>2026-04-24T18:44:42.366Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jarrodgriffin.com/workshops/10-Interactive-Report-Authoring.html</loc>
+    <lastmod>2026-04-24T18:44:42.366Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jarrodgriffin.com/workshops/11-Quarto-Slides-with-Revealjs.html</loc>
+    <lastmod>2026-04-24T18:44:42.366Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jarrodgriffin.com/teaching.html</loc>
+    <lastmod>2026-04-26T23:12:31.911Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jarrodgriffin.com/workshops/06-Data Visualization with R.html</loc>
+    <lastmod>2026-04-24T18:44:42.366Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jarrodgriffin.com/workshops/13-HubSpot-Email-Marketing.html</loc>
+    <lastmod>2026-04-24T19:04:49.407Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jarrodgriffin.com/workshops/01-Introduction to R.html</loc>
+    <lastmod>2026-04-24T18:44:42.366Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jarrodgriffin.com/workshops/04-Data Manipulation with Tidyverse.html</loc>
+    <lastmod>2026-04-24T18:44:42.366Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jarrodgriffin.com/workshops/07-Text Mining in R.html</loc>
+    <lastmod>2026-04-24T18:44:42.366Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jarrodgriffin.com/workshops/08-Create Interactive Apps with Shiny in R.html</loc>
+    <lastmod>2026-04-24T18:44:42.366Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jarrodgriffin.com/workshops/12-Portfolio-Website-with-Quarto.html</loc>
+    <lastmod>2026-04-24T18:44:42.366Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jarrodgriffin.com/resume.html</loc>
+    <lastmod>2026-04-24T18:59:55.379Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jarrodgriffin.com/admin-assignments/Instructions on Term Website Project-Markitdown.html</loc>
+    <lastmod>2026-04-26T19:29:11.238Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jarrodgriffin.com/resume/Jarrod_Griffin-Resume.html</loc>
+    <lastmod>2026-04-24T18:44:42.365Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jarrodgriffin.com/marketing-analytics.html</loc>
+    <lastmod>2026-04-26T23:46:32.211Z</lastmod>
   </url>
 </urlset>
